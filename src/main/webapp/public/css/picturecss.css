@@ -1,0 +1,4634 @@
+
+* {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+a {
+    border: 0 none;
+    color: #000000;
+    text-decoration: none;
+}
+a:hover {
+    border: 0 none;
+    color: #000000;
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "鐎瑰缍�;
+    font-size: 12px;
+    font-weight: normal;
+}
+body {
+    color: #000000;
+    font-family: "鐎瑰缍�;
+    font-size: 12px;
+    font-weight: normal;
+}
+ul li, ol li {
+    list-style-type: none;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.FunctionCer .FunctionCer_nav {
+    height: 50px;
+    width: 100%;
+}
+.FunctionCer .FunctionCer_nav .fun_left {
+    float: left;
+    height: 26px;
+    line-height: 26px;
+    position: relative;
+    width: 590px;
+}
+.FunctionCer .FunctionCer_nav .fun_left input {
+    float: left;
+    margin: 6px 5px 0 0;
+}
+.FunctionCer .FunctionCer_nav .fun_left img {
+    cursor: pointer;
+    height: 18px;
+    left: 130px;
+    position: absolute;
+    top: 5px;
+    width: 18px;
+    z-index: 100;
+}
+.FunctionCer .FunctionCer_nav .fun_left .status_def {
+    border: 1px solid #C1BFBF;
+    border-radius: 3px 3px 3px 3px;
+    color: #3A5900;
+    cursor: pointer;
+    height: 21px;
+    left: 200px;
+    position: absolute;
+    top: 0;
+    width: 92px;
+}
+.FunctionCer .FunctionCer_nav .fun_left .st_container {
+    background-color: #FFFFFF;
+    border: 2px solid #7FB221;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+    display: none;
+    height: 38px;
+    left: 138px;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    width: 190px;
+}
+.FunctionCer .FunctionCer_nav .fun_left .st_container strong {
+    line-height: 20px;
+}
+.FunctionCer .FunctionCer_nav .fun_right {
+    float: left;
+    position: relative;
+    z-index: 9999;
+}
+.FunctionCer .FunctionCer_nav .fun_right input {
+    background: url("/pics/images/fun_btn.png") repeat scroll 0 0 transparent;
+    height: 26px;
+    position: relative;
+    width: 108px;
+    z-index: 99999;
+}
+.FunctionCer .FunctionCer_nav .fun_right .pnone_box {
+    background-color: #F1F9E4;
+    border: 1px solid #7FB221;
+    display: none;
+    height: 471px;
+    left: -175px;
+    position: absolute;
+    top: 23px;
+    width: 280px;
+    z-index: 9999;
+}
+.FunctionCer .FunctionCer_nav .fun_right .pnone_box .pnone_matter {
+    background: url("../images/pics/pnone_menu.png") repeat scroll 0 0 transparent;
+    height: 451px;
+    margin: 10px;
+    width: 260px;
+}
+.FunctionCer .pnone_box .pnone_matter .title {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    height: 37px;
+    line-height: 37px;
+    text-align: center;
+}
+.FunctionCer .pnone_box .pnone_matter .container {
+    height: 375px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 0 12px;
+}
+.FunctionCer .pnone_box .pnone_matter .container .pic-box {
+    border: 1px solid #CACACA;
+    display: block;
+    height: 153px;
+    margin: 0 auto;
+    width: 224px;
+}
+.FunctionCer .pnone_box .pnone_matter .container .top-pict {
+    background: url("../images/pics/pic_more.png") repeat scroll 0 0 transparent;
+    height: 10px;
+}
+.FunctionCer .pnone_box .pnone_matter .container .con-pict {
+    background-color: #FFFFFF;
+    border-left: 1px solid #D0D0D0;
+    border-right: 1px solid #D0D0D0;
+    font-family: "瀵邦喛钂嬮梿鍛寸拨";
+    margin: 0 auto;
+    position: relative;
+    width: 238px;
+}
+.FunctionCer .pnone_box .pnone_matter .container .con-pict .more-title {
+    background-color: #000000;
+    color: #FFFFFF;
+    height: 25px;
+    left: 8px;
+    line-height: 25px;
+    opacity: 0.7;
+    position: absolute;
+    text-indent: 10px;
+    top: 128px;
+    width: 222px;
+}
+.FunctionCer .pnone_box .pnone_matter .container .con-pict .pic-boxmin {
+    border: 1px solid #D0D0D0;
+    display: block;
+    float: right !important;
+    height: 55px;
+    margin: 5px 5px 0 0;
+    width: 55px;
+}
+.FunctionCer .pnone_box .pnone_matter .container .con-pict h5 {
+    float: left;
+    padding-top: 10px;
+    text-indent: 15px;
+    width: 175px;
+}
+.FunctionCer .pnone_box .pnone_matter .container .con-pict .min-pic {
+    border-bottom: 1px solid #CACACA;
+    height: 66px;
+}
+.FunctionCer .pnone_box .pnone_matter .container .con-pict .min-pic img {
+    float: left;
+}
+.FunctionCer .pnone_box .pnone_matter .container .con-pict h6 {
+    color: #737373;
+    font-size: 13px;
+    padding: 0 0 3px 8px;
+}
+.FunctionCer .pnone_box .pnone_matter .container .con-pict .matter-01 {
+    font-size: 20px;
+    line-height: 40px;
+    padding-left: 8px;
+}
+.FunctionCer .pnone_box .pnone_matter .container .con-pict .matter-02 {
+    color: #737373;
+    font-size: 16px;
+    line-height: 40px;
+    padding-left: 8px;
+}
+.FunctionCer .pnone_box .pnone_matter .container .con-pict .matter-03 {
+    background: url("../images/pics/readmore.png") no-repeat scroll 215px 13px transparent;
+    border-top: 1px solid #D0D0D0;
+    color: #737373;
+    font-size: 16px;
+    line-height: 40px;
+    margin: 0 auto;
+    padding-left: 8px;
+    width: 224px;
+}
+.FunctionCer .pnone_box .pnone_matter .container .btm-pict {
+    background: url("../images/pics/pic_more.png") repeat scroll 0 11px transparent;
+    height: 10px;
+}
+.FunctionCer .pnone_box .pnone_matter .container .pic_only {
+    margin-left: -4px;
+    width: 243px;
+}
+.FunctionCer .pnone_box .pnone_matter .container .pic_more {
+    margin-left: -4px;
+    width: 243px;
+}
+.FunctionCer .pnone_box .pnone_matter .container .top-left {
+    background: url("../images/pics/talk_bg.png") repeat scroll 88px -3px transparent;
+    height: 20px;
+    left: -7px;
+    position: absolute;
+    top: -1px;
+    width: 10px;
+}
+.FunctionCer .pnone_box .pnone_matter .container .top-right {
+    background: url("../images/pics/talk_bg.png") repeat scroll 36px -4px transparent;
+    display: none;
+    height: 10px;
+    position: absolute;
+    right: -2px;
+    top: -1px;
+    width: 10px;
+}
+.FunctionCer .pnone_box .pnone_matter .container .btm-left {
+    background: url("../images/pics/talk_bg.png") repeat scroll 58px -4px transparent;
+    bottom: -1px;
+    display: none;
+    height: 15px;
+    left: -2px;
+    position: absolute;
+    width: 7px;
+}
+.FunctionCer .pnone_box .pnone_matter .container .btm-right {
+    background: url("../images/pics/talk_bg.png") repeat scroll 13px -3px transparent;
+    bottom: -1px;
+    display: none;
+    height: 15px;
+    position: absolute;
+    right: -2px;
+    width: 7px;
+}
+.FunctionCer .pnone_box .pnone_matter .container .top-leftm {
+    background: url("../images/pics/talk_bg.png") repeat scroll -1px 0 transparent;
+    display: none;
+    height: 10px;
+    left: -4px;
+    position: absolute;
+    top: -4px;
+    width: 10px;
+}
+.FunctionCer .pnone_box .pnone_matter .container .top-rightm {
+    background: url("../images/pics/talk_bg.png") repeat scroll -34px -3px transparent;
+    height: 20px;
+    position: absolute;
+    right: -7px;
+    top: -2px;
+    width: 12px;
+}
+.FunctionCer .pnone_box .pnone_matter .container .btm-leftm {
+    background: url("../images/pics/talk_bg.png") repeat scroll -3px -21px transparent;
+    bottom: -2px;
+    display: none;
+    height: 10px;
+    left: -2px;
+    position: absolute;
+    width: 10px;
+}
+.FunctionCer .pnone_box .pnone_matter .container .btm-rightm {
+    background: url("../images/pics/talk_bg.png") repeat scroll -68px -8px transparent;
+    bottom: -1px;
+    display: none;
+    height: 10px;
+    position: absolute;
+    right: -3px;
+    width: 10px;
+}
+.FunctionCer .pnone_box .pnone_matter .container_clear {
+    clear: both;
+    height: 1px;
+    width: 100%;
+}
+.FunctionCer .pnone_box .pnone_matter .container .reply {
+    padding: 10px 0;
+}
+.FunctionCer .pnone_box .pnone_matter .container .reply .tag_container {
+    background-color: #B5E446;
+    border: 1px solid #9DB458;
+    float: left;
+    margin-left: 13px;
+    padding: 5px;
+    position: relative;
+    width: 160px;
+    word-spacing: 250px;
+    word-wrap: break-word;
+}
+.FunctionCer .pnone_box .pnone_matter .container .reply .tag_container .Realsimulation {
+    clear: both;
+}
+.FunctionCer .pnone_box .pnone_matter .container .reply img {
+    background-color: #B5E446;
+    display: block;
+    float: left;
+    height: 34px;
+    width: 34px;
+}
+.FunctionCer .pnone_box .pnone_matter .container .reply .tag_container img {
+    background-color: #B5E446;
+    height: 20px;
+    width: 20px;
+}
+.FunctionCer .pnone_box .pnone_matter .container .reply .tag_container ul, .FunctionCer .pnone_box .pnone_matter .container .reply .tag_container ul li {
+    padding-left: 0 !important;
+}
+.FunctionCer .pnone_box .pnone_matter .container .reply .tag_container ul li {
+    height: 20px !important;
+}
+.FunctionCer .pnone_box .pnone_matter .container .mesend {
+    padding: 10px 0;
+}
+.FunctionCer .pnone_box .pnone_matter .container .mesend .tag_containerme {
+    background-color: #EFEFEF;
+    border: 1px solid #C5C5B5;
+    float: right;
+    margin-right: 13px;
+    margin-top: 3px;
+    max-width: 160px;
+    padding: 5px;
+    position: relative;
+    word-wrap: break-word;
+}
+.FunctionCer .pnone_box .pnone_matter .container .mesend .tag_containerme span {
+    margin: 0 5px;
+}
+.FunctionCer .pnone_box .pnone_matter .container .mesend img {
+    background-color: #C3D5FF;
+    display: block;
+    float: right;
+    height: 34px;
+    width: 34px;
+}
+.FunctionCer .pnone_box .pnone_matter .sends .send_test {
+    background: url("../images/pics/pnone_menu.png") repeat scroll -29px 32px transparent;
+    float: left;
+    height: 27px;
+    line-height: 27px;
+    margin: 7px 0 0 29px;
+    padding: 0 7px;
+    width: 156px;
+}
+.FunctionCer .pnone_box .pnone_matter .sends .sendbtn {
+    background: url("../images/pics/pnone_menu.png") repeat scroll 42px 32px transparent;
+    cursor: pointer;
+    float: left;
+    height: 28px;
+    margin: 6px 0 0 20px;
+    width: 33px;
+}
+.FunctionCer ul.HomemlBox .Homeml {
+    vertical-align: bottom;
+    width: 254px;
+}
+.FunctionCer {
+    display: inline;
+    float: left;
+    margin: 25px;
+    width: 720px;
+}
+.FunctionCer ul {
+    padding-left: 30px;
+}
+.FunctionCer .right_box {
+    background-color: #F9F9F9;
+    border: 1px solid #C4C4C4;
+    float: right;
+    min-height: 455px;
+    padding: 15px;
+    width: 354px;
+}
+.FunctionCer .right_box .r_title dt, .FunctionCer .right_box .r_title dd {
+    float: left;
+    height: 50px;
+    line-height: 50px;
+}
+.FunctionCer .right_box .r_titlen dt, .FunctionCer .right_box .r_titlen dd {
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+}
+.FunctionCer .right_box .r_title dt {
+    width: 60px;
+}
+.FunctionCer .right_box .r_title input {
+    border: 1px solid #AEBAC0;
+    font-size: 12px;
+    height: 20px;
+    margin-top: 14px;
+    padding-left: 5px;
+    width: 210px;
+}
+.FunctionCer .right_box .hsborder {
+    border-top: 1px dotted #C4C4C4;
+    clear: both;
+}
+.FunctionCer .right_box .user_talk {
+    background-color: #F2F2DA;
+    border: 1px solid #C4C4C4;
+    clear: both;
+    position: relative;
+    width: 356px;
+}
+.FunctionCer .right_box .user_talk .user_pic {
+    float: left;
+    margin: 20px 0 0 18px;
+    width: 32px;
+}
+.FunctionCer .right_box .user_talk .user_pic img {
+    border: 1px dotted #C4C4C4;
+    display: block;
+    height: 30px;
+    width: 30px;
+}
+.FunctionCer .right_box .user_talk .talk_cent {
+    float: left;
+    margin: 20px 0 0 10px;
+    width: 281px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talkedit {
+    height: 148px;
+    width: 240px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent01 {
+    background: url("../images/pics/talkbg.png") repeat scroll 0 0 transparent;
+    padding: 20px 0 0 28px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent02 {
+    background: url("../images/pics/talk02.png") repeat-y scroll 0 0 transparent;
+    padding: 20px 0 0 44px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent03 {
+    background: url("../images/pics/talkbg.png") repeat scroll 0 40px transparent;
+    height: 20px;
+    padding: 20px 0 0 22px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent03a {
+    background: url("../images/pics/talkbg.png") repeat scroll 0 286px transparent;
+    padding: 20px 0 0 22px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent04 {
+    background: url("../images/pics/talk04.png") repeat scroll 0 7px transparent;
+    height: 6px;
+    width: 279px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .view_top dd {
+    padding: 5px 0;
+}
+.FunctionCer .right_box .user_talk .talk_cent .view_top {
+    position: relative;
+}
+.FunctionCer .right_box .user_talk .talk_cent .view_top .big_view {
+    height: 82px;
+    left: 1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 1px;
+    width: 224px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .view_top .big_view input {
+    cursor: pointer;
+    font-size: 68px;
+    height: 116px;
+    margin-left: -748px;
+}
+.FunctionCer .right_box .user_talk .talk_cent dl {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #565454;
+    border-color: -moz-use-text-color #C4C4C4 #C4C4C4;
+    border-image: none;
+    border-right: 1px solid #C4C4C4;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    width: 214px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .view_top .view_pro {
+    color: #636F52;
+    font-family: "Arial";
+    padding: 10px 0;
+    text-align: right;
+    width: 224px;
+}
+.FunctionCer .right_box .user_talk .cont_site {
+    position: absolute;
+    top: 65px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_search {
+    height: 35px;
+    margin-top: 10px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_search .s_test {
+    border: 1px solid #AEBAC0;
+    color: #A7A7A7;
+    float: left;
+    height: 23px;
+    line-height: 23px;
+    padding-left: 5px;
+    width: 140px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_search .s_btn {
+    background: url("../images/pics/_talk_search.png") repeat scroll 0 -2px transparent;
+    color: #FFFFFF;
+    cursor: pointer;
+    float: left;
+    height: 25px;
+    margin-left: 6px;
+    width: 80px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .D_int_style {
+    background-color: #FFFFFF;
+    border: medium none;
+    margin: 20px 0 10px 15px;
+    width: 228px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .D_int_style dt {
+    color: #737373;
+    font-family: "瀵邦喛钂嬮梿鍛寸拨";
+    font-size: 13px;
+    line-height: 40px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .D_int_style input {
+    border: 1px solid #96A77C;
+    color: #B8B8B8;
+    height: 23px;
+    line-height: 23px;
+    padding-left: 6px;
+    width: 220px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .D_int_style a {
+    color: #0000FF;
+    float: right;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.FunctionCer .right_box .save_btn {
+    background: url("../images/pics/save12.png") repeat scroll 0 0 transparent;
+    height: 40px;
+    margin: 30px 0 40px 83px;
+    width: 119px;
+}
+.FunctionCer .right_box .user_talk .user_title {
+    background-color: #1A1F23;
+    color: #FFFFFF;
+    font-family: "瀵邦喛钂嬮梿鍛寸拨";
+    font-size: 18px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+}
+.FunctionCer .no_menu {
+    background-color: #F9F9F9;
+    border: 1px solid #C4C4C4;
+    display: none;
+    font-family: "瀵邦喛钂嬮梿鍛寸拨";
+    height: 247px;
+    margin: 25px auto;
+    width: 424px;
+}
+.FunctionCer .no_menu h3 {
+    color: #DE0000;
+    font-family: "瀵邦喛钂嬮梿鍛寸拨";
+    font-size: 24px;
+    line-height: 90px;
+    text-align: center;
+}
+.FunctionCer .no_menu p {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0 73px;
+}
+.FunctionCer .right_box .user_talk a {
+    color: #3C6700;
+    font-size: 12px;
+    text-decoration: underline;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent01 .vie_title {
+    color: #3D5700;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent02 .item_01 {
+    margin: 0;
+    padding: 0;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent02 .item_01 li {
+    background-color: #FFFFFF;
+    border: 1px solid #A8C665;
+    float: left;
+    height: 84px;
+    margin: 3px 15px 2px 0;
+    padding: 5px;
+    width: 99px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent02 .item_01 li img {
+    background-color: #512400;
+    display: block;
+    height: 60px;
+    width: 96px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent02 .item_02 {
+    margin: 0;
+    padding: 0;
+}
+.FunctionCer .right_box .user_talk .talk_cent .s_upbtn {
+    background: url("../images/pics/upbtn020.png") repeat scroll 0 0 transparent;
+    height: 27px;
+    width: 81px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent02 .item_02 li {
+    background-color: #FFFFFF;
+    border: 1px solid #A8C665;
+    height: 99px;
+    margin: 16px 0 0 2px;
+    padding: 10px;
+    position: relative;
+    width: 211px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent02 .item_02 li img {
+    background: url("../images/pics/player.png") repeat scroll 0 0 transparent;
+    cursor: pointer;
+    display: block;
+    height: 49px;
+    width: 155px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent01 .se_nub {
+    padding: 15px 0;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent01 .se_nub select {
+    border: 1px solid #AEBAC0;
+    height: 22px;
+    padding: 1px;
+    width: 80px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent02 .more_viewpic {
+    border-bottom: 1px solid #AFD477;
+    height: 115px;
+    position: relative;
+    width: 267px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent02 .more_viewpic .big_view2 {
+    height: 52px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 52px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent02 .more_viewpic .big_view2 input {
+    cursor: pointer;
+    font-size: 50px;
+    margin-left: -615px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent02 .start_modefiy {
+    font-size: 12px;
+    height: 31px;
+    margin: 30px 0;
+    width: 226px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent02 .cent_min {
+    float: right;
+    height: 40px;
+    line-height: 40px;
+    padding-top: 10px;
+    width: 170px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent02 .cent_min input {
+    border: 1px solid #96A77C;
+    color: #B8B8B8;
+    font-size: 12px;
+    height: 21px;
+    line-height: 21px;
+    padding-left: 5px;
+    width: 159px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent02 .more_viewpic img {
+    background-color: #009BE3;
+    border: 1px solid #C4C4C4;
+    display: block;
+    float: right;
+    height: 52px;
+    margin: 9px;
+    width: 52px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent02 .allSubArticles {
+    margin-left: -20px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent02 h6 {
+    color: #010101;
+    float: left;
+    font-size: 14px;
+    width: 150px;
+}
+.FunctionCer .no_menu input {
+    background: url("../images/pics/ysopen.png") repeat scroll 0 0 transparent;
+    height: 36px;
+    margin: 36px 0 0 145px;
+    width: 114px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .view_img {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #C4C4C4 #C4C4C4 -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 1px medium;
+    display: block;
+    height: 82px;
+    margin-top: 10px;
+    width: 224px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent02 .up_view input {
+    background: url("../images/pics/select_lbtn.png") repeat scroll 0 0 transparent;
+    cursor: pointer;
+    height: 24px;
+    width: 90px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent02 .summary {
+    background-color: #FFFFFF;
+    color: #B8B8B8;
+    font-size: 12px;
+    height: 60px;
+    margin-top: 10px;
+    padding: 10px;
+    resize: none;
+    width: 204px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent02 h5 {
+    color: #3D5700 !important;
+    padding: 10px 0;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent01 span {
+    color: #636F52;
+    font-size: 12px;
+    padding-left: 10px;
+}
+.FunctionCer ul li {
+    height: 30px;
+    padding-left: 40px;
+}
+.FunctionCer ul li.Less {
+    background: url("../images/Less.png") no-repeat scroll 20px center transparent;
+}
+.FunctionCer ul li.Expansion {
+    background: url("../images/hide_tag.png") no-repeat scroll 20px center transparent;
+}
+.FunctionCer ul li span {
+    line-height: 29px;
+}
+.FunctionCer ul.HomemlBox {
+    border: 1px solid #E0E0E0;
+    height: 450px;
+    overflow: auto;
+    padding: 0;
+    position: relative;
+    width: 294px;
+}
+.FunctionCer ul li.Homeml {
+    cursor: pointer;
+    margin: 0;
+    position: relative;
+}
+.FunctionCer ul li.Homeml .home1_left {
+    float: left;
+    overflow: hidden;
+    width: 126px;
+}
+.FunctionCer ul li.Homeml .home1_right {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 36%;
+}
+.FunctionCer ul li.Homeml.Homeml_over {
+    background-color: #E8EFCD;
+}
+.FunctionCer ul li.Homeml label {
+    cursor: pointer;
+    float: right;
+    height: 17px;
+    margin: 6px 10px 0 0;
+    width: 18px;
+}
+.FunctionCer ul li.Homeml label.HomeAdd {
+    background-image: url("../images/HomeAdd.png");
+    background-position: 0 0;
+}
+.FunctionCer ul li.Homeml label.Modify {
+    background-image: url("../images/HomeAdd.png");
+    background-position: -18px 0;
+}
+.FunctionCer ul li.Homeml label.Editor {
+    background-image: url("../images/HomeAdd.png");
+    background-position: -36px 0;
+}
+.FunctionCer ul li.Homeml label.Delete {
+    background-image: url("../images/HomeAdd.png");
+    background-position: -54px 0;
+}
+.FunctionCer ul li.Homeml label.addmenu {
+    background-image: url("../images/HomeAdd.png");
+    background-position: 36px 0;
+}
+.FunctionCer ul li.Homeml label.HomeAdd_over {
+    background-image: url("../images/Modify.png");
+    background-position: 0 0;
+}
+.FunctionCer ul li.Homeml label.Modify_over {
+    background-image: url("../images/Modify.png");
+    background-position: -18px 0;
+}
+.FunctionCer ul li.Homeml label.Editor_over {
+    background-image: url("../images/Modify.png");
+    background-position: -36px 0;
+}
+.FunctionCer ul li.Homeml label.Delete_over {
+    background-image: url("../images/Modify.png");
+    background-position: -54px 0;
+}
+.FunctionCer ul li.Homeml label.addmenu_over {
+    background-image: url("../images/Modify.png");
+    background-position: 36px 0;
+}
+.FunctionCer ul li.Homeml dl {
+    background-color: #FFFFFF;
+    border: 1px solid #B0BACB;
+    position: absolute;
+    right: 0;
+    top: 23px;
+    width: 160px;
+}
+.FunctionCer ul li.Homeml dl a {
+    display: inline;
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    margin: 1px;
+    padding-left: 18px;
+    width: 140px;
+}
+.FunctionCer ul li.Homeml dl a.HomeAdd_A {
+    background-color: #E8EFCD;
+    color: #576D00;
+}
+.FunctionCon {
+    float: left;
+    margin: 20px 35px;
+    width: 700px;
+}
+.FunctionCon dd {
+    float: left;
+    margin-top: 10px;
+    width: 700px;
+}
+.FunctionCon dd span {
+    float: left;
+    line-height: 23px;
+}
+.FunctionCon .FunctionInp {
+    border: 1px solid #AEBAC0;
+    float: left;
+    padding: 3px 2px;
+    width: 230px;
+}
+.FunctionCon .FunctionInp_1 {
+    border: 1px solid #AEBAC0;
+    float: left;
+    padding: 3px 2px;
+    width: 500px;
+}
+.FunctionCon .FunctionSel {
+    border: 1px solid #AEBAC0;
+    float: left;
+    margin-right: 15px;
+    padding: 3px;
+    width: 130px;
+}
+.FunctionCon dt {
+    float: left;
+    line-height: 20px;
+    margin: 15px 0 25px;
+    width: 700px;
+}
+.FunctionCon .FunctionTex {
+    border: 1px solid #AEBAC0;
+    float: left;
+    height: 200px;
+    padding: 4px;
+    resize: none;
+    width: 690px;
+}
+.FunctionCon .FunctionBtn {
+    background-image: url("../images/FunctionBtn.gif");
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    height: 32px;
+    margin: 20px 0 0 290px;
+    width: 118px;
+}
+.keyword ul.HomemlBox .Homeml {
+    vertical-align: bottom;
+}
+.keyword {
+    display: inline;
+    float: left;
+    margin: 25px;
+    width: 730px;
+}
+.keyword ul {
+    padding-left: 30px;
+}
+.keyword ul li {
+    height: 32px;
+    line-height: 32px;
+    padding-left: 40px;
+}
+.keyword ul li.Less {
+    background: url("../images/test.png") no-repeat scroll 20px center transparent;
+}
+.keyword ul li span {
+    height: 29px;
+    line-height: 29px;
+    overflow: hidden;
+    width: 80px;
+}
+.keyword ul.HomemlBox {
+    border: 1px solid #AEB8CA;
+    height: 486px;
+    overflow-y: auto;
+    padding: 0;
+    position: relative;
+    width: 315px;
+}
+.keyword ul li.Homeml {
+    border-top: 1px solid #AEB8CA;
+    margin: 0;
+    position: relative;
+}
+.keyword ul li.Homeml .home1_left {
+    float: left;
+    width: 154px;
+}
+.keyword ul li.Homeml .home1_left input {
+    height: 20px;
+    line-height: 20px;
+    margin-top: 5px;
+}
+.keyword dt {
+    float: left;
+}
+.keyword ul li.Homeml .home1_right {
+    float: left;
+    width: 86px;
+}
+.keyword ul li.Homeml.Homeml_over {
+    background-color: #E8EFCD;
+}
+.keyword ul li.Homeml label {
+    cursor: pointer;
+    float: right;
+    height: 17px;
+    margin: 6px 10px 0 0;
+    width: 18px;
+}
+.keyword ul li.Homeml label.HomeAdd {
+    background-image: url("../images/HomeAdd.png");
+    background-position: 0 0;
+}
+.keyword ul li.Homeml label.Modify {
+    background-image: url("../images/HomeAdd.png");
+    background-position: -18px 0;
+}
+.keyword ul li.Homeml label.Editor {
+    background-image: url("../images/HomeAdd.png");
+    background-position: -36px 0;
+}
+.keyword ul li.Homeml label.Delete {
+    background-image: url("../images/HomeAdd.png");
+    background-position: -54px 0;
+}
+.keyword ul li.Homeml label.addmenu {
+    background-image: url("../images/HomeAdd.png");
+    background-position: 36px 0;
+}
+.keyword ul li.Homeml label.HomeAdd_over {
+    background-image: url("../images/Modify.png");
+    background-position: 0 0;
+}
+.keyword ul li.Homeml label.Modify_over {
+    background-image: url("../images/Modify.png");
+    background-position: -18px 0;
+}
+.keyword ul li.Homeml label.Editor_over {
+    background-image: url("../images/Modify.png");
+    background-position: -36px 0;
+}
+.keyword ul li.Homeml label.Delete_over {
+    background-image: url("../images/Modify.png");
+    background-position: -54px 0;
+}
+.keyword ul li.Homeml label.addmenu_over {
+    background-image: url("../images/Modify.png");
+    background-position: 36px 0;
+}
+.keyword .k_right {
+    background-color: #F9F9F9;
+    border: 1px solid #C4C4C4;
+    display: none;
+    float: right;
+    min-height: 455px;
+    padding: 15px;
+    width: 354px;
+}
+.keyword .k_right .r_title dt, .keyword .k_right .r_title dd {
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+}
+.keyword .k_right .r_title dt {
+    width: 60px;
+}
+.keyword .k_right .user_talk a {
+    color: #3C6700;
+    font-size: 12px;
+    text-decoration: underline;
+}
+.keyword .r_titleNoServiceType {
+    border: 1px solid #AEBAC0;
+    font-size: 12px;
+    height: 22px;
+    line-height: 22px;
+    margin-top: 15px;
+    padding: 2px;
+    width: 130px;
+}
+.keyword .k_right .r_title input {
+    border: 1px solid #AEBAC0;
+    font-size: 12px;
+    height: 20px;
+    margin-top: 14px;
+    padding-left: 5px;
+    width: 210px;
+}
+.keyword .k_right .hsborder {
+    border-top: 1px dotted #C4C4C4;
+    clear: both;
+}
+.keyword .k_right .r_title .k_st {
+    border: 1px solid #AEBAC0;
+    font-size: 12px;
+    height: 22px;
+    line-height: 22px;
+    margin-top: 15px;
+    padding: 2px;
+    width: 130px;
+}
+.keyword .k_right .user_talk {
+    background-color: #F2F2DA;
+    border: 1px solid #C4C4C4;
+    clear: both;
+    position: relative;
+    width: 356px;
+}
+.keyword .k_right .user_talk .user_title {
+    background-color: #1A1F23;
+    color: #FFFFFF;
+    font-family: "瀵邦喛钂嬮梿鍛寸拨";
+    font-size: 18px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+}
+.keyword .k_right .user_talk .user_pic {
+    float: left;
+    margin: 20px 0 0 18px;
+    width: 32px;
+}
+.keyword .k_right .user_talk .user_pic img {
+    border: 1px dotted #C4C4C4;
+    display: block;
+    height: 30px;
+    width: 30px;
+}
+.keyword .k_right .user_talk .talk_cent {
+    float: left;
+    margin: 20px 0 0 10px;
+    width: 281px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent01 {
+    background: url("../images/pics/talkbg.png") repeat scroll 0 0 transparent;
+    padding: 20px 0 0 28px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent02 {
+    background: url("../images/pics/talk02.png") repeat-y scroll 0 0 transparent;
+    padding: 20px 0 0 44px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent03 {
+    background: url("../images/pics/talkbg.png") repeat scroll 0 40px transparent;
+    height: 20px;
+    padding: 20px 0 0 22px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent03a {
+    background: url("../images/pics/talkbg.png") repeat scroll 0 286px transparent;
+    padding: 20px 0 0 22px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent04 {
+    background: url("../images/pics/talk04.png") repeat scroll 0 7px transparent;
+    height: 6px;
+    width: 279px;
+}
+.keyword .k_right .save_btn {
+    background: url("../images/pics/save12.png") repeat scroll 0 0 transparent;
+    height: 40px;
+    margin: 30px 0 40px 83px;
+    width: 119px;
+}
+.keyword .k_right .user_talk .cont_site {
+    color: blue;
+    cursor: pointer;
+    position: absolute;
+    text-decoration: none;
+    top: 65px;
+}
+.keyword .k_right .user_talk .talk_cent .view_top dd {
+    padding: 5px 0;
+}
+.keyword .k_right .user_talk .talk_cent .view_top .big_view {
+    height: 82px;
+    left: 1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 1px;
+    width: 224px;
+}
+.keyword .k_right .user_talk .talk_cent .view_top .big_view input {
+    cursor: pointer;
+    font-size: 68px;
+    height: 116px;
+    margin-left: -748px;
+}
+.keyword .k_right .user_talk .talk_cent .view_img {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #C4C4C4 #C4C4C4 -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 1px medium;
+    display: block;
+    height: 82px;
+    margin-top: 10px;
+    width: 224px;
+}
+.keyword .k_right .user_talk .talk_cent dl {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #565454;
+    border-color: -moz-use-text-color #C4C4C4 #C4C4C4;
+    border-image: none;
+    border-right: 1px solid #C4C4C4;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    height: 27px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    width: 214px;
+}
+.keyword .k_right .user_talk .talk_cent .view_top .view_pro {
+    color: #636F52;
+    font-family: "Arial";
+    padding: 10px 0;
+    text-align: right;
+    width: 224px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent02 .summary {
+    background-color: #FFFFFF;
+    color: #B8B8B8;
+    font-size: 12px;
+    height: 60px;
+    margin-top: 10px;
+    padding: 10px;
+    resize: none;
+    width: 204px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent02 .start_modefiy {
+    border: 1px solid #96A77C;
+    font-size: 12px;
+    height: 31px;
+    margin: 30px 0;
+    width: 226px;
+}
+.keyword .k_right .user_talk .talk_cent .view_top {
+    position: relative;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent01 .se_nub {
+    padding: 15px 0;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent01 .se_nub select {
+    border: 1px solid #AEBAC0;
+    height: 22px;
+    padding: 1px;
+    width: 80px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent01 span {
+    color: #636F52;
+    font-size: 12px;
+    padding-left: 10px;
+}
+.keyword .k_right .user_talk a {
+    color: #3C6700;
+    font-size: 12px;
+    text-decoration: underline;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent02 .allSubArticles {
+    margin-left: -20px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent02 h6 {
+    color: #010101;
+    float: left;
+    font-size: 14px;
+    width: 150px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent02 .more_viewpic {
+    border-bottom: 1px solid #AFD477;
+    height: 115px;
+    position: relative;
+    width: 267px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent02 .more_viewpic .big_view2 {
+    height: 52px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 52px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent02 .more_viewpic .big_view2 input {
+    cursor: pointer;
+    font-size: 50px;
+    margin-left: -615px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent02 .more_viewpic img {
+    background-color: #009BE3;
+    border: 1px solid #C4C4C4;
+    display: block;
+    float: right;
+    height: 52px;
+    margin: 9px;
+    width: 52px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent02 .allSubArticles {
+    margin-left: -20px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent02 h6 {
+    color: #010101;
+    float: left;
+    font-size: 14px;
+    width: 150px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent02 .cent_min {
+    float: right;
+    height: 40px;
+    line-height: 40px;
+    padding-top: 10px;
+    width: 170px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent02 .cent_min input {
+    border: 1px solid #96A77C;
+    color: #B8B8B8;
+    font-size: 12px;
+    height: 21px;
+    line-height: 21px;
+    padding-left: 5px;
+    width: 159px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent02 .cent_min {
+    float: right;
+    height: 40px;
+    line-height: 40px;
+    padding-top: 10px;
+    width: 170px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent02 .cent_min input {
+    border: 1px solid #96A77C;
+    color: #B8B8B8;
+    font-size: 12px;
+    height: 21px;
+    line-height: 21px;
+    padding-left: 5px;
+    width: 159px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent02 .start_modefiy {
+    border: medium none;
+    font-size: 12px;
+    height: 31px;
+    margin: 30px 0;
+    width: 226px;
+}
+.keyword .k_right .user_talk .talk_cent .D_int_style {
+    background-color: #FFFFFF;
+    border: medium none;
+    margin: 20px 0 10px 15px;
+    width: 228px;
+}
+.keyword .k_right .user_talk .talk_cent .D_int_style dt {
+    color: #737373;
+    font-family: "瀵邦喛钂嬮梿鍛寸拨";
+    font-size: 13px;
+    line-height: 40px;
+}
+.keyword .k_right .user_talk .talk_cent .D_int_style input {
+    border: 1px solid #96A77C;
+    color: #B8B8B8;
+    height: 23px;
+    line-height: 23px;
+    padding-left: 6px;
+    width: 220px;
+}
+.keyword .k_right .user_talk .talk_cent .D_int_style a {
+    color: #0000FF;
+    float: right;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.keyword .k_right .user_talk .talk_cent .talk_search {
+    height: 35px;
+    margin-top: 10px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_search .s_test {
+    border: 1px solid #AEBAC0;
+    color: #A7A7A7;
+    float: left;
+    height: 23px;
+    line-height: 23px;
+    padding-left: 5px;
+    width: 140px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_search .s_btn {
+    background: url("../images/pics/_talk_search.png") repeat scroll 0 -2px transparent;
+    color: #FFFFFF;
+    cursor: pointer;
+    float: left;
+    height: 25px;
+    margin-left: 6px;
+    width: 80px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent02 .item_01 {
+    margin: 0;
+    padding: 0;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent02 .item_01 li {
+    background-color: #FFFFFF;
+    border: 1px solid #A8C665;
+    float: left;
+    height: 84px;
+    margin: 3px 15px 2px 0;
+    padding: 5px;
+    width: 99px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent02 .item_01 li img {
+    background-color: #512400;
+    display: block;
+    height: 60px;
+    width: 96px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent02 .item_02 {
+    margin: 0;
+    padding: 0;
+}
+.keyword .k_right .user_talk .talk_cent .s_upbtn {
+    background: url("../images/pics/upbtn020.png") repeat scroll 0 0 transparent;
+    height: 27px;
+    width: 81px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent02 .item_02 li {
+    background-color: #FFFFFF;
+    border: 1px solid #A8C665;
+    height: 99px;
+    margin: 16px 0 0 2px;
+    padding: 10px;
+    position: relative;
+    width: 211px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent02 .item_02 li img {
+    background: url("../images/pics/player.png") repeat scroll 0 0 transparent;
+    cursor: pointer;
+    display: block;
+    height: 49px;
+    width: 155px;
+}
+.massmessage {
+    display: inline;
+    float: left;
+    margin: 25px;
+    width: 730px;
+}
+.massmessage .topnav .looktask {
+    background-image: url("../images/lookmas.png");
+    color: #FFFFFF;
+    height: 24px;
+    width: 104px;
+}
+.massmessage .massBoxmid {
+    height: 70px;
+    line-height: 70px;
+    padding-left: 20px;
+}
+.massmessage .massBoxmid .selectbox {
+    border: 1px solid #AEB8CA;
+    height: 22px;
+    width: 65px;
+}
+.massmessage .massBoxmid .date {
+    background: url("../images/select.png") repeat scroll 0 0 transparent;
+    height: 23px;
+    line-height: 21px;
+    margin: 22px 7px;
+    padding-left: 10px;
+    text-align: left;
+    width: 60px;
+}
+.massmessage .massBoxmid .seitems {
+    float: left;
+    position: relative;
+}
+.massmessage .massBoxmid .plus {
+    cursor: pointer;
+    height: 12px;
+    position: absolute;
+    right: 7px;
+    top: 22px;
+    width: 20px;
+}
+.massmessage .massBoxmid .minus {
+    bottom: 23px;
+    cursor: pointer;
+    height: 10px;
+    position: absolute;
+    right: 7px;
+    width: 20px;
+}
+.massmessage .massBoxmid .date2 {
+    background: url("../images/select2.png") repeat scroll 0 0 transparent;
+    float: left;
+    height: 23px;
+    line-height: 23px;
+    overflow: hidden;
+    padding-left: 8px;
+    padding-right: 25px;
+    text-align: center;
+    width: 32px;
+}
+.massmessage .massBoxmid .dateund1 {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color #AEB8CA #AEB8CA;
+    border-image: none;
+    border-right: 1px solid #AEB8CA;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    left: 0;
+    line-height: 23px;
+    position: absolute;
+    text-align: center;
+    top: 23px;
+    width: 63px;
+}
+.massmessage .massBoxmid .dateund2 {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #F2F2F2;
+    border-color: -moz-use-text-color #AEB8CA #AEB8CA;
+    border-image: none;
+    border-right: 1px solid #AEB8CA;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    left: 0;
+    line-height: 23px;
+    position: absolute;
+    text-align: center;
+    top: 23px;
+    width: 68px;
+}
+.massmessage .massBoxmid strong {
+    float: left;
+}
+.massmessage .massBoxmid .selectdown {
+    background-color: #FFFFFF;
+    cursor: pointer;
+    float: left;
+    margin: 23px 8px;
+    position: relative;
+    text-align: center;
+}
+#items {
+    background-color: #FFFFFF;
+    z-index: 9999;
+}
+.massmessage .massBoxmid span {
+    float: left;
+}
+.massBoxbtm {
+    background-color: #F5F5F5;
+    border: 1px solid #AEB8CA;
+    float: left;
+    width: 719px;
+}
+.massBoxbtm .nav {
+    height: 32px;
+    width: 100%;
+}
+.massBoxbtm .nav li {
+    border-bottom: 1px solid #AEB8CA;
+    border-right: 1px solid #AEB8CA;
+    cursor: pointer;
+    float: left;
+    font-size: 14px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    width: 100px;
+}
+.massBoxbtm .nav .liright {
+    border-bottom: 1px solid #AEB8CA;
+    border-right: medium none;
+    float: left;
+    height: 32px;
+    line-height: 32px;
+    width: 235px;
+}
+.massBoxbtm .nav .hoverbox {
+    background: url("../images/slidehb.png") no-repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.massBoxbtm .nav .btm {
+    background: url("../images/slidehb.png") no-repeat scroll 0 -35px transparent;
+    height: 7px;
+    width: 100px;
+}
+.massBoxbtm .matter {
+    background-color: #FFFFFF;
+    display: none;
+    height: 121px;
+    margin: 24px 0 0 20px;
+    padding: 10px;
+    position: relative;
+    resize: none;
+    width: 660px;
+}
+.massBoxbtm .send {
+    padding: 50px 0 30px 20px;
+}
+.massBoxbtm .send input {
+    background: url("../images/sendb.png") no-repeat scroll 0 0 transparent;
+    border: medium none;
+    cursor: pointer;
+    height: 37px;
+    width: 110px;
+}
+.massBoxbtm .send label {
+    font-size: 12px;
+    line-height: 37px;
+    margin-left: 25px;
+}
+.massBoxbtm .send ._red {
+    color: red;
+    font-weight: bold;
+}
+.massBoxbtm .rechage {
+    bottom: -23px;
+    position: absolute;
+    right: -1px;
+}
+.massBoxbtm .promp {
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 123px;
+    text-align: center;
+    vertical-align: middle;
+}
+.massBoxbtm .music {
+    height: auto !important;
+}
+.massBoxbtm .music dl {
+    font-weight: bold;
+    padding: 15px;
+}
+.massBoxbtm .music dt {
+    height: 30px;
+    line-height: 30px;
+}
+.massBoxbtm .music dd .player {
+    background: url("../images/player.png") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    height: 49px;
+    line-height: 49px;
+    margin-left: 20px;
+    text-indent: 24px;
+    width: 155px;
+}
+.massBoxbtm .music dd .player .lasttime {
+    color: #FFFFFF;
+    font-weight: bold;
+    padding-right: 50px;
+}
+.massBoxbtm .matter .imtext {
+    margin-left: 20px;
+}
+.massBoxbtm .matter .imtext .image-box {
+    float: left;
+    font-size: 12px;
+    height: 110px;
+    margin: 10px 8px;
+    padding: 10px;
+    width: 123px;
+}
+.massBoxbtm .matter .imtext .image-box .testradio {
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+}
+.massBoxbtm .matter .imtext .image-box input {
+    margin-right: 10px;
+}
+.massBoxbtm .matter .imtext .only-imagetext {
+    background-image: url("../images/pics/tuwenbg1.png");
+}
+.massBoxbtm .matter .imtext .more-imagetext {
+    background-image: url("../images/pics/tuwenbg1.png");
+    background-position: -1px 135px;
+    padding-top: 18px;
+}
+.massBoxbtm .matter .imtext .text-imagetext {
+    background-image: url("../images/pics/tuwenbg2.png");
+    height: 36px;
+    padding-top: 86px;
+}
+.massBoxbtm .youhui a {
+    color: #0066F1;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.sendrecord {
+    float: left;
+    width: 730px;
+}
+.sendrecord .recordtop {
+    padding-bottom: 20px;
+}
+.sendrecord .recordtop .backer {
+    background-image: url("../images/back.gif");
+    height: 26px;
+    width: 88px;
+}
+.sendrecord .recordmatter {
+}
+.sendrecord .recordmatter li {
+    float: left;
+    white-space: normal;
+}
+.sendrecord .recordmatter .infro {
+    text-indent: 16px;
+    width: 405px;
+}
+.sendrecord .recordmatter .status {
+    width: 115px;
+}
+.sendrecord .recordmatter .sendnub {
+    width: 70px;
+}
+.sendrecord .recordmatter dt {
+    background-color: #E8E9E9;
+    border-bottom: 1px solid #AEB8CA;
+    border-top: 1px solid #AEB8CA;
+    height: 32px;
+    line-height: 32px;
+    width: 100%;
+}
+.sendrecord .recordmatter dd {
+    border-bottom: 1px solid #AEB8CA;
+    height: 95px;
+    padding-top: 16px;
+    width: 100%;
+}
+.sendrecord .recordmatter .infro .infroimg {
+    float: left;
+    text-indent: 2px;
+}
+.sendrecord .recordmatter .infro .infrotext {
+    float: left;
+    padding-left: 10px;
+    width: 250px;
+}
+.sendrecord .recordmatter .infro .infrotext p {
+    font-size: 12px;
+    height: 30px;
+    margin-top: 6px;
+    overflow: hidden;
+    padding: 0;
+    white-space: normal;
+    word-break: break-all;
+}
+.sendrecord .recordmatter .infro .infrotext .p1title {
+    color: #008000;
+    padding-right: 70px;
+}
+.sendrecord .recordmatter .sendnub strong {
+    color: #008000;
+}
+.sendrecord .recordmatter ._colorst {
+    background-color: #F7FFD7;
+}
+.sendrecord .recordbtm {
+    border-bottom: 1px solid #AEB8CA;
+    border-top: 1px solid #AEB8CA;
+    height: 60px;
+    line-height: 60px;
+    margin-top: 30px;
+}
+.popup_box {
+    width: 554px;
+}
+.popup_box p {
+    font-size: 12px !important;
+    padding: 0 !important;
+}
+.popup_box .title {
+    background: url("../images/pics/titlebg.png") repeat scroll 0 0 transparent;
+    height: 47px;
+    line-height: 47px;
+    padding-left: 14px;
+}
+.popup_box .title font {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+}
+.popup_box .mattereded {
+    background: url("../images/pics/matterededbg.png") repeat scroll 0 0 transparent;
+}
+.popup_box .mattereded .matterededbox {
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    padding: 18px;
+    width: 494px;
+}
+.popup_box .mattereded .matterededbox .file-box {
+    font-size: 14px;
+    position: relative;
+    width: 340px;
+}
+.popup_box .mattereded .matterededbox .file-box input {
+    float: left;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+.popup_box .mattereded .matterededbox .txt {
+    border: 1px solid #CDCDCD;
+    height: 22px;
+    width: 180px;
+}
+.popup_box .mattereded .matterededbox .btn {
+    background-color: #FFFFFF;
+    border: 1px solid #CDCDCD;
+    height: 24px;
+    width: 70px;
+}
+.popup_box .mattereded .matterededbox .file {
+    height: 24px;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 260px;
+}
+.popup_box .mattereded .matterededbox .backpo1 {
+    background: url("../images/pics/popbutton.png") repeat scroll 84px -2px transparent;
+    border: medium none;
+    cursor: pointer;
+    height: 27px;
+    width: 82px;
+}
+.popup_box .mattereded .matterededbox dl {
+    margin-bottom: 18px;
+    margin-top: 18px;
+}
+.popup_box .mattereded .matterededbox dt {
+    background-color: #F7FFD7;
+    border-bottom: 1px solid #AEB8CA;
+    border-top: 1px solid #AEB8CA;
+    height: 90px;
+    padding: 10px;
+}
+.popup_box .mattereded .matterededbox li {
+    float: left;
+}
+.popup_box .mattereded .matterededbox .float_rt {
+    float: right;
+    font-size: 14px;
+}
+.popup_box .mattereded .matterededbox .float_rt .color_blk {
+    color: #00690F;
+}
+.popup_box .mattereded .matterededbox .mg_rt {
+    margin-right: 10px;
+}
+.popup_box .mattereded .matterededbox .play {
+    background: url("../images/pics/player.png") repeat scroll 0 0 transparent;
+    font-size: 12px;
+    height: 49px;
+    line-height: 49px;
+    position: relative;
+    width: 155px;
+}
+.popup_box .mattereded .matterededbox .play strong {
+    color: #FFFFFF;
+    margin-left: 24px;
+    margin-right: 45px;
+}
+.popup_box .mattereded .matterededbox dd {
+    border-bottom: 1px solid #AEB8CA;
+    height: 90px;
+    padding: 10px;
+}
+.popup_box .mattereded .matterededbox .confirmpo {
+    background: url("../images/pics/popbutton.png") repeat scroll 0 0 transparent;
+    border: medium none;
+    cursor: pointer;
+    display: inline-block;
+    height: 34px;
+    margin-left: 105px;
+    margin-right: 40px;
+    width: 112px;
+}
+.popup_box .mattereded .matterededbox .cancelpo {
+    background: url("../images/pics/popbutton.png") repeat scroll -155px 0 transparent;
+    border: medium none;
+    cursor: pointer;
+    height: 34px;
+    width: 112px;
+}
+.popup_box .mattereded .matterededbox .page {
+    float: none;
+    margin-bottom: 10px !important;
+    padding-left: 82px;
+    width: auto !important;
+}
+.popup_box .mattereded .matterededbox .page a {
+    border: 1px solid #AEB8CA;
+    color: #B8B8B8;
+    float: left;
+    font-size: 12px;
+    margin: 0 3px;
+    padding: 3px 7px;
+}
+.popup_box .mattereded .matterededbox .page input {
+    border: 1px solid #AEB8CA;
+    color: green;
+    float: left;
+    height: 21px;
+    text-align: center;
+    width: 22px;
+}
+.popup_box .mattereded .matterededbox ._pic {
+    height: 109px;
+}
+.popup_box .mattereded .matterededbox .image-text {
+    border-bottom: 1px dotted #AEB8CA;
+    font-size: 12px;
+    height: 50px;
+}
+.popup_box .mattereded .matterededbox .image-text a {
+    color: #0000FF;
+}
+.popup_box .mattereded .matterededbox .image-text input {
+    background: url("../images/pics/tuwen.png") repeat scroll 0 0 transparent;
+    border: medium none;
+    height: 23px;
+    margin: 0 5px;
+    width: 78px;
+}
+.popup_box .mattereded .matterededbox .image-box {
+    float: left;
+    font-size: 12px;
+    height: 110px;
+    margin: 10px 8px;
+    padding: 10px;
+    width: 123px;
+}
+.popup_box .mattereded .matterededbox .image-box .testradio {
+    height: 34px;
+    line-height: 34px;
+    overflow: hidden;
+    width: 122px;
+}
+.popup_box .mattereded .matterededbox .image-box input {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.popup_box .mattereded .matterededbox .only-imagetext {
+    background-image: url("../images/pics/tuwenbg1.png");
+}
+.popup_box .mattereded .matterededbox .more-imagetext {
+    background-image: url("../images/pics/tuwenbg1.png");
+    background-position: -1px 135px;
+    padding-top: 18px;
+}
+.popup_box .mattereded .matterededbox .text-imagetext {
+    background-image: url("../images/pics/tuwenbg2.png");
+    height: 36px;
+    padding-top: 86px;
+}
+.popup_box .btm {
+    background: url("../images/pics/pbtmbg.png") repeat scroll 0 0 transparent;
+    height: 23px;
+}
+.content {
+    border: 1px solid #AEB8CA;
+    display: inline;
+    float: left;
+    margin: 25px;
+    width: 720px;
+}
+.content .subnav {
+}
+.content .subnav .navlist {
+}
+.content .subnav .navlist li {
+    border-bottom: 1px solid #AEB8CA;
+    border-right: 1px solid #AEB8CA;
+    cursor: pointer;
+    float: left;
+    font-size: 14px;
+    height: 33px;
+    line-height: 33px;
+    position: relative;
+    text-align: center;
+    width: 143px;
+}
+.content .subnav .navlist li .tagbtmh {
+    background: url("../images/pics/conlistH.png") repeat scroll 0 9px transparent;
+    height: 9px;
+    left: 0;
+    position: absolute;
+    top: 33px;
+    width: 143px;
+}
+.content .subnav .navlist .tagH {
+    background: url("../images/pics/conlistH.png") repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.content .subnav .navlist .clear-brd {
+    border-right: medium none;
+}
+.content .container {
+    background-color: #F9F9F9;
+    clear: both;
+}
+.content .container .creatitem {
+    height: 70px;
+    line-height: 70px;
+    padding-left: 20px;
+}
+.content .container .creatitem dt {
+    float: left;
+}
+.content .container .creatitem dd {
+    float: left;
+}
+.content .container .creatitem dd input {
+    background: url("../images/pics/tuwen.png") repeat scroll 0 0 transparent;
+    height: 23px;
+    margin-right: 10px;
+    width: 78px;
+}
+.content .container .newshow {
+    clear: both;
+}
+.content .container .newshow dt {
+    background-color: #EDEDED;
+    border-bottom: 1px solid #AEB8CA;
+    border-top: 1px solid #AEB8CA;
+    height: 34px;
+    line-height: 34px;
+    padding-left: 20px;
+}
+.content .container .newshow dt a {
+    background: url("../images/pics/topnav.gif") no-repeat scroll 10px center transparent;
+    border: 1px solid #C1BFBF;
+    border-radius: 5px 5px 5px 5px;
+    color: #3A5900;
+    display: inline;
+    float: right;
+    height: 19px;
+    line-height: 19px;
+    margin: 7px 10px 0 0;
+    padding: 0 7px 0 25px;
+    text-decoration: underline;
+}
+.content .container .newshow dd li{
+    float: left;
+    height: 177px;
+    margin: 8px;
+    padding: 10px;
+    position: relative;
+    width: 203px;
+}
+
+.imgcontent li {
+	float: left;
+    height: 177px;
+    margin: 8px;
+    padding: 10px;
+    position: relative;
+    width: 203px;
+}
+
+.content .container {
+    display: none;
+}
+.content .tuwen_matter {
+    display: block;
+}
+.content .container .newshow_pic {
+    clear: both;
+}
+.content .container .newshow_pic dt {
+    background-color: #EDEDED;
+    border-bottom: 1px solid #AEB8CA;
+    border-top: 1px solid #AEB8CA;
+    height: 34px;
+    line-height: 34px;
+    padding-left: 20px;
+}
+.content .container .newshow_pic li {
+    float: left;
+}
+.content .container .newshow_pic dd ul {
+    border-bottom: 1px solid #AEB8CA;
+    height: 110px;
+    padding: 20px;
+}
+.content .container .newshow_pic .pic_view {
+    position: relative;
+    width: 500px;
+}
+.content .container .newshow_pic .pic_view input {
+    background-color: #F9F9F9;
+    float: left;
+    font-weight: bold;
+    height: 28px;
+    padding-left: 10px;
+}
+.pic_viewInput {
+    background-color: #FFFFFF !important;
+    border: 1px solid #AEB8CA;
+    height: 26px !important;
+    width: 326px !important;
+}
+.content .container .newshow_pic .data_con {
+    font-weight: bold;
+    text-align: center;
+    width: 70px;
+}
+.content .container .newshow_pic .operate {
+    text-align: center;
+    width: 110px;
+}
+.content .container .newshow_pic .pic_ul_h {
+    background-color: #F7FFD7;
+}
+.content .container .newshow_pic .pic_ul_h input {
+    background-color: #F7FFD7;
+}
+.content .container .newshow_pic ._Operating {
+    height: 17px;
+    width: 18px;
+}
+.content .container .newshow_pic ._edit {
+    background: url("../images/pics/HomeAdd.png") repeat scroll 55px 0 transparent;
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.content .container .newshow_pic ._Opdel {
+    background: url("../images/pics/HomeAdd.png") repeat scroll 18px 0 transparent;
+    margin-left: 47px;
+}
+.content .container .newshow .only-item {
+    background: url("../images/pics/conbgb.png") repeat scroll 0 196px transparent;
+}
+.imgcontent .only-item{
+	background: url("../images/pics/conbgb.png") repeat scroll 0 196px transparent;
+}
+
+.content .container .newshow .more-item {
+    background: url("../images/pics/conbga.png") repeat scroll 0 196px transparent;
+}
+.content .container .newshow .contitle {
+    font-size: 14px;
+    font-weight: bold;
+    height: 50px;
+    line-height: 50px;
+    overflow: hidden;
+    text-align: center;
+}
+.content .container .newshow .modefy {
+    height: 34px;
+    left: 11px;
+    position: absolute;
+    top: 100px;
+    width: 200px;
+}
+.content .creatimg_text {
+    background-color: #F9F9F9;
+    clear: both;
+    display: none;
+    padding: 35px 40px;
+}
+.content .creatimg_text dl {
+    clear: both;
+}
+.content .creatimg_text dt {
+    float: left;
+    margin-right: 5px;
+    text-align: right;
+    width: 62px;
+}
+.content .creatimg_text dd {
+    float: left;
+}
+.content .creatimg_text .model {
+    border: 1px solid #AEB8CA;
+    height: 70px;
+    width: 530px;
+}
+.content .selectnub select {
+    border: 1px solid #AEB8CA;
+    height: 22px;
+    padding: 2px 5px;
+    width: 120px;
+}
+.content .selectnub dt, .content .selectnub dd {
+    line-height: 22px;
+}
+.content .creatimg_text .view {
+    background-color: #F9FFE1;
+    border: 1px solid #AEB8CA;
+    padding: 20px;
+    width: 330px;
+}
+.content .creatimg_text .view p {
+    line-height: 24px;
+}
+.content .creatimg_text .viewmin {
+    background-color: #F9FFE1;
+    border: 1px solid #AEB8CA;
+    clear: both;
+    overflow: hidden;
+    padding: 20px;
+    width: 330px;
+}
+.content .creatimg_text .viewmin p {
+    float: left;
+    width: 232px;
+}
+.content .creatimg_text .btmnav {
+    border: 1px solid #AEB8CA;
+    clear: both;
+    height: 23px;
+    margin-bottom: 34px;
+    width: 631px;
+}
+.content .creatimg_text .btmnav li {
+    border-right: 1px solid #AEB8CA;
+    cursor: pointer;
+    float: left;
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+    width: 94px;
+}
+.content .creatimg_text .btmnav .viewnav {
+    background: url("../images/pics/viewnav.png") repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.content .creatimg_text .btmnav .viewtag {
+    background: url("../images/pics/viewnav.png") repeat scroll 0 7px transparent;
+    height: 7px;
+    position: relative;
+}
+.content .creatimg_text ._title dd input {
+    border: 1px solid #AEB8CA;
+    height: 21px;
+    width: 372px;
+}
+.content .creatimg_text ._title dt, .content .creatimg_text ._upload dt {
+    line-height: 22px;
+    text-align: right;
+    width: 67px;
+}
+.content .creatimg_text .consave {
+    background: url("../images/pics/consubmit.png") repeat scroll -1px -2px transparent;
+    border: medium none;
+    height: 32px;
+    margin: 0 15px 0 155px;
+    width: 120px;
+}
+.content .creatimg_text .conback {
+    background: url("../images/pics/consubmit.png") repeat scroll -145px -2px transparent;
+    border: medium none;
+    height: 32px;
+    width: 120px;
+}
+.content .creatimg_text ._upload dd span {
+    color: #909090;
+}
+.content .creatimg_text ._upload dd .test {
+    border: 1px solid #AEB8CA;
+    height: 21px;
+    width: 180px;
+}
+.content .creatimg_text ._upload dd .sbtn {
+    background: url("../images/pics/conupload.png") repeat scroll -1px -2px transparent;
+    height: 24px;
+    margin: 0 15px;
+    width: 90px;
+}
+.content .creatimg_text ._text dt {
+    line-height: 22px;
+    text-align: right;
+    width: 67px;
+}
+.content .creatimg_text ._text dd {
+    float: none;
+    padding-left: 8px;
+}
+.content .creatimg_text ._textedit {
+    border: 1px solid #AEB8CA;
+    height: 235px;
+    width: 600px;
+}
+.mdf-alpha {
+    background-color: #000000;
+    opacity: 0.65;
+}
+.content .container .newshow .modefy .m_edit {
+    cursor: pointer;
+    float: right;
+    height: 33px;
+    width: 40px;
+}
+.content .container .upload2 {
+    background: url("../images/pics/popbutton.png") repeat scroll 84px 0 transparent;
+    border: medium none;
+    cursor: pointer;
+    height: 27px;
+    width: 82px;
+}
+.content .container .test_up {
+    background: none repeat scroll 0 0 transparent !important;
+    border: 1px solid #AEB8CA;
+    height: 21px !important;
+    margin-left: 15px;
+    width: 180px !important;
+}
+.m_editH {
+    background-image: url("../images/pics/activitymodify.png");
+}
+.content .container .newshow .modefy .m_empty {
+    cursor: pointer;
+    float: right;
+    height: 33px;
+    width: 40px;
+}
+.m_emptyH {
+    background-image: url("../images/pics/activitydelete.png");
+}
+
+* {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+a {
+    border: 0 none;
+    color: #000000;
+    text-decoration: none;
+}
+a:hover {
+    border: 0 none;
+    color: #000000;
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "鐎瑰缍�;
+    font-size: 12px;
+    font-weight: normal;
+}
+body {
+    color: #000000;
+    font-family: "鐎瑰缍�;
+    font-size: 12px;
+    font-weight: normal;
+}
+ul li, ol li {
+    list-style-type: none;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.FunctionCer .FunctionCer_nav {
+    height: 50px;
+    width: 100%;
+}
+.FunctionCer .FunctionCer_nav .fun_left {
+    float: left;
+    height: 26px;
+    line-height: 26px;
+    position: relative;
+    width: 590px;
+}
+.FunctionCer .FunctionCer_nav .fun_left input {
+    float: left;
+    margin: 6px 5px 0 0;
+}
+.FunctionCer .FunctionCer_nav .fun_left img {
+    cursor: pointer;
+    height: 18px;
+    left: 130px;
+    position: absolute;
+    top: 5px;
+    width: 18px;
+    z-index: 100;
+}
+.FunctionCer .FunctionCer_nav .fun_left .status_def {
+    border: 1px solid #C1BFBF;
+    border-radius: 3px 3px 3px 3px;
+    color: #3A5900;
+    cursor: pointer;
+    height: 21px;
+    left: 200px;
+    position: absolute;
+    top: 0;
+    width: 92px;
+}
+.FunctionCer .FunctionCer_nav .fun_left .st_container {
+    background-color: #FFFFFF;
+    border: 2px solid #7FB221;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+    display: none;
+    height: 38px;
+    left: 138px;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    width: 190px;
+}
+.FunctionCer .FunctionCer_nav .fun_left .st_container strong {
+    line-height: 20px;
+}
+.FunctionCer .FunctionCer_nav .fun_right {
+    float: left;
+    position: relative;
+    z-index: 9999;
+}
+.FunctionCer .FunctionCer_nav .fun_right input {
+    background: url("../images/pics/fun_btn.png") repeat scroll 0 0 transparent;
+    height: 26px;
+    position: relative;
+    width: 108px;
+    z-index: 99999;
+}
+.FunctionCer .FunctionCer_nav .fun_right .pnone_box {
+    background-color: #F1F9E4;
+    border: 1px solid #7FB221;
+    display: none;
+    height: 471px;
+    left: -175px;
+    position: absolute;
+    top: 23px;
+    width: 280px;
+    z-index: 9999;
+}
+.FunctionCer .FunctionCer_nav .fun_right .pnone_box .pnone_matter {
+    background: url("../images/pics/pnone_menu.png") repeat scroll 0 0 transparent;
+    height: 451px;
+    margin: 10px;
+    width: 260px;
+}
+.FunctionCer .pnone_box .pnone_matter .title {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    height: 37px;
+    line-height: 37px;
+    text-align: center;
+}
+.FunctionCer .pnone_box .pnone_matter .container {
+    height: 375px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 0 12px;
+}
+.FunctionCer .pnone_box .pnone_matter .container .pic-box {
+    border: 1px solid #CACACA;
+    display: block;
+    height: 153px;
+    margin: 0 auto;
+    width: 224px;
+}
+.FunctionCer .pnone_box .pnone_matter .container .top-pict {
+    background: url("../images/pics/pic_more.png") repeat scroll 0 0 transparent;
+    height: 10px;
+}
+.FunctionCer .pnone_box .pnone_matter .container .con-pict {
+    background-color: #FFFFFF;
+    border-left: 1px solid #D0D0D0;
+    border-right: 1px solid #D0D0D0;
+    font-family: "瀵邦喛钂嬮梿鍛寸拨";
+    margin: 0 auto;
+    position: relative;
+    width: 238px;
+}
+.FunctionCer .pnone_box .pnone_matter .container .con-pict .more-title {
+    background-color: #000000;
+    color: #FFFFFF;
+    height: 25px;
+    left: 8px;
+    line-height: 25px;
+    opacity: 0.7;
+    position: absolute;
+    text-indent: 10px;
+    top: 128px;
+    width: 222px;
+}
+.FunctionCer .pnone_box .pnone_matter .container .con-pict .pic-boxmin {
+    border: 1px solid #D0D0D0;
+    display: block;
+    float: right !important;
+    height: 55px;
+    margin: 5px 5px 0 0;
+    width: 55px;
+}
+.FunctionCer .pnone_box .pnone_matter .container .con-pict h5 {
+    float: left;
+    padding-top: 10px;
+    text-indent: 15px;
+    width: 175px;
+}
+.FunctionCer .pnone_box .pnone_matter .container .con-pict .min-pic {
+    border-bottom: 1px solid #CACACA;
+    height: 66px;
+}
+.FunctionCer .pnone_box .pnone_matter .container .con-pict .min-pic img {
+    float: left;
+}
+.FunctionCer .pnone_box .pnone_matter .container .con-pict h6 {
+    color: #737373;
+    font-size: 13px;
+    padding: 0 0 3px 8px;
+}
+.FunctionCer .pnone_box .pnone_matter .container .con-pict .matter-01 {
+    font-size: 20px;
+    line-height: 40px;
+    padding-left: 8px;
+}
+.FunctionCer .pnone_box .pnone_matter .container .con-pict .matter-02 {
+    color: #737373;
+    font-size: 16px;
+    line-height: 40px;
+    padding-left: 8px;
+}
+.FunctionCer .pnone_box .pnone_matter .container .con-pict .matter-03 {
+    background: url("../images/pics/readmore.png") no-repeat scroll 215px 13px transparent;
+    border-top: 1px solid #D0D0D0;
+    color: #737373;
+    font-size: 16px;
+    line-height: 40px;
+    margin: 0 auto;
+    padding-left: 8px;
+    width: 224px;
+}
+.FunctionCer .pnone_box .pnone_matter .container .btm-pict {
+    background: url("../images/pics/pic_more.png") repeat scroll 0 11px transparent;
+    height: 10px;
+}
+.FunctionCer .pnone_box .pnone_matter .container .pic_only {
+    margin-left: -4px;
+    width: 243px;
+}
+.FunctionCer .pnone_box .pnone_matter .container .pic_more {
+    margin-left: -4px;
+    width: 243px;
+}
+.FunctionCer .pnone_box .pnone_matter .container .top-left {
+    background: url("../images/pics/talk_bg.png") repeat scroll 88px -3px transparent;
+    height: 20px;
+    left: -7px;
+    position: absolute;
+    top: -1px;
+    width: 10px;
+}
+.FunctionCer .pnone_box .pnone_matter .container .top-right {
+    background: url("../images/pics/talk_bg.png") repeat scroll 36px -4px transparent;
+    display: none;
+    height: 10px;
+    position: absolute;
+    right: -2px;
+    top: -1px;
+    width: 10px;
+}
+.FunctionCer .pnone_box .pnone_matter .container .btm-left {
+    background: url("../images/pics/talk_bg.png") repeat scroll 58px -4px transparent;
+    bottom: -1px;
+    display: none;
+    height: 15px;
+    left: -2px;
+    position: absolute;
+    width: 7px;
+}
+.FunctionCer .pnone_box .pnone_matter .container .btm-right {
+    background: url("../images/pics/talk_bg.png") repeat scroll 13px -3px transparent;
+    bottom: -1px;
+    display: none;
+    height: 15px;
+    position: absolute;
+    right: -2px;
+    width: 7px;
+}
+.FunctionCer .pnone_box .pnone_matter .container .top-leftm {
+    background: url("../images/pics/talk_bg.png") repeat scroll -1px 0 transparent;
+    display: none;
+    height: 10px;
+    left: -4px;
+    position: absolute;
+    top: -4px;
+    width: 10px;
+}
+.FunctionCer .pnone_box .pnone_matter .container .top-rightm {
+    background: url("../images/pics/talk_bg.png") repeat scroll -34px -3px transparent;
+    height: 20px;
+    position: absolute;
+    right: -7px;
+    top: -2px;
+    width: 12px;
+}
+.FunctionCer .pnone_box .pnone_matter .container .btm-leftm {
+    background: url("../images/pics/talk_bg.png") repeat scroll -3px -21px transparent;
+    bottom: -2px;
+    display: none;
+    height: 10px;
+    left: -2px;
+    position: absolute;
+    width: 10px;
+}
+.FunctionCer .pnone_box .pnone_matter .container .btm-rightm {
+    background: url("../images/pics/talk_bg.png") repeat scroll -68px -8px transparent;
+    bottom: -1px;
+    display: none;
+    height: 10px;
+    position: absolute;
+    right: -3px;
+    width: 10px;
+}
+.FunctionCer .pnone_box .pnone_matter .container_clear {
+    clear: both;
+    height: 1px;
+    width: 100%;
+}
+.FunctionCer .pnone_box .pnone_matter .container .reply {
+    padding: 10px 0;
+}
+.FunctionCer .pnone_box .pnone_matter .container .reply .tag_container {
+    background-color: #B5E446;
+    border: 1px solid #9DB458;
+    float: left;
+    margin-left: 13px;
+    padding: 5px;
+    position: relative;
+    width: 160px;
+    word-spacing: 250px;
+    word-wrap: break-word;
+}
+.FunctionCer .pnone_box .pnone_matter .container .reply .tag_container .Realsimulation {
+    clear: both;
+}
+.FunctionCer .pnone_box .pnone_matter .container .reply img {
+    background-color: #B5E446;
+    display: block;
+    float: left;
+    height: 34px;
+    width: 34px;
+}
+.FunctionCer .pnone_box .pnone_matter .container .reply .tag_container img {
+    background-color: #B5E446;
+    height: 20px;
+    width: 20px;
+}
+.FunctionCer .pnone_box .pnone_matter .container .reply .tag_container ul, .FunctionCer .pnone_box .pnone_matter .container .reply .tag_container ul li {
+    padding-left: 0 !important;
+}
+.FunctionCer .pnone_box .pnone_matter .container .reply .tag_container ul li {
+    height: 20px !important;
+}
+.FunctionCer .pnone_box .pnone_matter .container .mesend {
+    padding: 10px 0;
+}
+.FunctionCer .pnone_box .pnone_matter .container .mesend .tag_containerme {
+    background-color: #EFEFEF;
+    border: 1px solid #C5C5B5;
+    float: right;
+    margin-right: 13px;
+    margin-top: 3px;
+    max-width: 160px;
+    padding: 5px;
+    position: relative;
+    word-wrap: break-word;
+}
+.FunctionCer .pnone_box .pnone_matter .container .mesend .tag_containerme span {
+    margin: 0 5px;
+}
+.FunctionCer .pnone_box .pnone_matter .container .mesend img {
+    background-color: #C3D5FF;
+    display: block;
+    float: right;
+    height: 34px;
+    width: 34px;
+}
+.FunctionCer .pnone_box .pnone_matter .sends .send_test {
+    background: url("../images/pics/pnone_menu.png") repeat scroll -29px 32px transparent;
+    float: left;
+    height: 27px;
+    line-height: 27px;
+    margin: 7px 0 0 29px;
+    padding: 0 7px;
+    width: 156px;
+}
+.FunctionCer .pnone_box .pnone_matter .sends .sendbtn {
+    background: url("../images/pics/pnone_menu.png") repeat scroll 42px 32px transparent;
+    cursor: pointer;
+    float: left;
+    height: 28px;
+    margin: 6px 0 0 20px;
+    width: 33px;
+}
+.FunctionCer ul.HomemlBox .Homeml {
+    vertical-align: bottom;
+    width: 254px;
+}
+.FunctionCer {
+    display: inline;
+    float: left;
+    margin: 25px;
+    width: 720px;
+}
+.FunctionCer ul {
+    padding-left: 30px;
+}
+.FunctionCer .right_box {
+    background-color: #F9F9F9;
+    border: 1px solid #C4C4C4;
+    float: right;
+    min-height: 455px;
+    padding: 15px;
+    width: 354px;
+}
+.FunctionCer .right_box .r_title dt, .FunctionCer .right_box .r_title dd {
+    float: left;
+    height: 50px;
+    line-height: 50px;
+}
+.FunctionCer .right_box .r_titlen dt, .FunctionCer .right_box .r_titlen dd {
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+}
+.FunctionCer .right_box .r_title dt {
+    width: 60px;
+}
+.FunctionCer .right_box .r_title input {
+    border: 1px solid #AEBAC0;
+    font-size: 12px;
+    height: 20px;
+    margin-top: 14px;
+    padding-left: 5px;
+    width: 210px;
+}
+.FunctionCer .right_box .hsborder {
+    border-top: 1px dotted #C4C4C4;
+    clear: both;
+}
+.FunctionCer .right_box .user_talk {
+    background-color: #F2F2DA;
+    border: 1px solid #C4C4C4;
+    clear: both;
+    position: relative;
+    width: 356px;
+}
+.FunctionCer .right_box .user_talk .user_pic {
+    float: left;
+    margin: 20px 0 0 18px;
+    width: 32px;
+}
+.FunctionCer .right_box .user_talk .user_pic img {
+    border: 1px dotted #C4C4C4;
+    display: block;
+    height: 30px;
+    width: 30px;
+}
+.FunctionCer .right_box .user_talk .talk_cent {
+    float: left;
+    margin: 20px 0 0 10px;
+    width: 281px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talkedit {
+    height: 148px;
+    width: 240px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent01 {
+    background: url("../images/pics/talkbg.png") repeat scroll 0 0 transparent;
+    padding: 20px 0 0 28px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent02 {
+    background: url("../images/pics/talk02.png") repeat-y scroll 0 0 transparent;
+    padding: 20px 0 0 44px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent03 {
+    background: url("../images/pics/talkbg.png") repeat scroll 0 40px transparent;
+    height: 20px;
+    padding: 20px 0 0 22px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent03a {
+    background: url("../images/pics/talkbg.png") repeat scroll 0 286px transparent;
+    padding: 20px 0 0 22px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent04 {
+    background: url("../images/pics/talk04.png") repeat scroll 0 7px transparent;
+    height: 6px;
+    width: 279px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .view_top dd {
+    padding: 5px 0;
+}
+.FunctionCer .right_box .user_talk .talk_cent .view_top {
+    position: relative;
+}
+.FunctionCer .right_box .user_talk .talk_cent .view_top .big_view {
+    height: 82px;
+    left: 1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 1px;
+    width: 224px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .view_top .big_view input {
+    cursor: pointer;
+    font-size: 68px;
+    height: 116px;
+    margin-left: -748px;
+}
+.FunctionCer .right_box .user_talk .talk_cent dl {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #565454;
+    border-color: -moz-use-text-color #C4C4C4 #C4C4C4;
+    border-image: none;
+    border-right: 1px solid #C4C4C4;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    width: 214px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .view_top .view_pro {
+    color: #636F52;
+    font-family: "Arial";
+    padding: 10px 0;
+    text-align: right;
+    width: 224px;
+}
+.FunctionCer .right_box .user_talk .cont_site {
+    position: absolute;
+    top: 65px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_search {
+    height: 35px;
+    margin-top: 10px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_search .s_test {
+    border: 1px solid #AEBAC0;
+    color: #A7A7A7;
+    float: left;
+    height: 23px;
+    line-height: 23px;
+    padding-left: 5px;
+    width: 140px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_search .s_btn {
+    background: url("../images/pics/_talk_search.png") repeat scroll 0 -2px transparent;
+    color: #FFFFFF;
+    cursor: pointer;
+    float: left;
+    height: 25px;
+    margin-left: 6px;
+    width: 80px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .D_int_style {
+    background-color: #FFFFFF;
+    border: medium none;
+    margin: 20px 0 10px 15px;
+    width: 228px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .D_int_style dt {
+    color: #737373;
+    font-family: "瀵邦喛钂嬮梿鍛寸拨";
+    font-size: 13px;
+    line-height: 40px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .D_int_style input {
+    border: 1px solid #96A77C;
+    color: #B8B8B8;
+    height: 23px;
+    line-height: 23px;
+    padding-left: 6px;
+    width: 220px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .D_int_style a {
+    color: #0000FF;
+    float: right;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.FunctionCer .right_box .save_btn {
+    background: url("../images/pics/save12.png") repeat scroll 0 0 transparent;
+    height: 40px;
+    margin: 30px 0 40px 83px;
+    width: 119px;
+}
+.FunctionCer .right_box .user_talk .user_title {
+    background-color: #1A1F23;
+    color: #FFFFFF;
+    font-family: "瀵邦喛钂嬮梿鍛寸拨";
+    font-size: 18px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+}
+.FunctionCer .no_menu {
+    background-color: #F9F9F9;
+    border: 1px solid #C4C4C4;
+    display: none;
+    font-family: "瀵邦喛钂嬮梿鍛寸拨";
+    height: 247px;
+    margin: 25px auto;
+    width: 424px;
+}
+.FunctionCer .no_menu h3 {
+    color: #DE0000;
+    font-family: "瀵邦喛钂嬮梿鍛寸拨";
+    font-size: 24px;
+    line-height: 90px;
+    text-align: center;
+}
+.FunctionCer .no_menu p {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0 73px;
+}
+.FunctionCer .right_box .user_talk a {
+    color: #3C6700;
+    font-size: 12px;
+    text-decoration: underline;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent01 .vie_title {
+    color: #3D5700;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent02 .item_01 {
+    margin: 0;
+    padding: 0;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent02 .item_01 li {
+    background-color: #FFFFFF;
+    border: 1px solid #A8C665;
+    float: left;
+    height: 84px;
+    margin: 3px 15px 2px 0;
+    padding: 5px;
+    width: 99px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent02 .item_01 li img {
+    background-color: #512400;
+    display: block;
+    height: 60px;
+    width: 96px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent02 .item_02 {
+    margin: 0;
+    padding: 0;
+}
+.FunctionCer .right_box .user_talk .talk_cent .s_upbtn {
+    background: url("../images/pics/upbtn020.png") repeat scroll 0 0 transparent;
+    height: 27px;
+    width: 81px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent02 .item_02 li {
+    background-color: #FFFFFF;
+    border: 1px solid #A8C665;
+    height: 99px;
+    margin: 16px 0 0 2px;
+    padding: 10px;
+    position: relative;
+    width: 211px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent02 .item_02 li img {
+    background: url("../images/pics/player.png") repeat scroll 0 0 transparent;
+    cursor: pointer;
+    display: block;
+    height: 49px;
+    width: 155px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent01 .se_nub {
+    padding: 15px 0;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent01 .se_nub select {
+    border: 1px solid #AEBAC0;
+    height: 22px;
+    padding: 1px;
+    width: 80px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent02 .more_viewpic {
+    border-bottom: 1px solid #AFD477;
+    height: 115px;
+    position: relative;
+    width: 267px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent02 .more_viewpic .big_view2 {
+    height: 52px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 52px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent02 .more_viewpic .big_view2 input {
+    cursor: pointer;
+    font-size: 50px;
+    margin-left: -615px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent02 .start_modefiy {
+    font-size: 12px;
+    height: 31px;
+    margin: 30px 0;
+    width: 226px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent02 .cent_min {
+    float: right;
+    height: 40px;
+    line-height: 40px;
+    padding-top: 10px;
+    width: 170px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent02 .cent_min input {
+    border: 1px solid #96A77C;
+    color: #B8B8B8;
+    font-size: 12px;
+    height: 21px;
+    line-height: 21px;
+    padding-left: 5px;
+    width: 159px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent02 .more_viewpic img {
+    background-color: #009BE3;
+    border: 1px solid #C4C4C4;
+    display: block;
+    float: right;
+    height: 52px;
+    margin: 9px;
+    width: 52px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent02 .allSubArticles {
+    margin-left: -20px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent02 h6 {
+    color: #010101;
+    float: left;
+    font-size: 14px;
+    width: 150px;
+}
+.FunctionCer .no_menu input {
+    background: url("../images/pics/ysopen.png") repeat scroll 0 0 transparent;
+    height: 36px;
+    margin: 36px 0 0 145px;
+    width: 114px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .view_img {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #C4C4C4 #C4C4C4 -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 1px medium;
+    display: block;
+    height: 82px;
+    margin-top: 10px;
+    width: 224px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent02 .up_view input {
+    background: url("../images/pics/select_lbtn.png") repeat scroll 0 0 transparent;
+    cursor: pointer;
+    height: 24px;
+    width: 90px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent02 .summary {
+    background-color: #FFFFFF;
+    color: #B8B8B8;
+    font-size: 12px;
+    height: 60px;
+    margin-top: 10px;
+    padding: 10px;
+    resize: none;
+    width: 204px;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent02 h5 {
+    color: #3D5700 !important;
+    padding: 10px 0;
+}
+.FunctionCer .right_box .user_talk .talk_cent .talk_cent01 span {
+    color: #636F52;
+    font-size: 12px;
+    padding-left: 10px;
+}
+.FunctionCer ul li {
+    height: 30px;
+    padding-left: 40px;
+}
+.FunctionCer ul li.Less {
+    background: url("../images/Less.png") no-repeat scroll 20px center transparent;
+}
+.FunctionCer ul li.Expansion {
+    background: url("../images/hide_tag.png") no-repeat scroll 20px center transparent;
+}
+.FunctionCer ul li span {
+    line-height: 29px;
+}
+.FunctionCer ul.HomemlBox {
+    border: 1px solid #E0E0E0;
+    height: 450px;
+    overflow: auto;
+    padding: 0;
+    position: relative;
+    width: 294px;
+}
+.FunctionCer ul li.Homeml {
+    cursor: pointer;
+    margin: 0;
+    position: relative;
+}
+.FunctionCer ul li.Homeml .home1_left {
+    float: left;
+    overflow: hidden;
+    width: 126px;
+}
+.FunctionCer ul li.Homeml .home1_right {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 36%;
+}
+.FunctionCer ul li.Homeml.Homeml_over {
+    background-color: #E8EFCD;
+}
+.FunctionCer ul li.Homeml label {
+    cursor: pointer;
+    float: right;
+    height: 17px;
+    margin: 6px 10px 0 0;
+    width: 18px;
+}
+.FunctionCer ul li.Homeml label.HomeAdd {
+    background-image: url("../images/HomeAdd.png");
+    background-position: 0 0;
+}
+.FunctionCer ul li.Homeml label.Modify {
+    background-image: url("../images/HomeAdd.png");
+    background-position: -18px 0;
+}
+.FunctionCer ul li.Homeml label.Editor {
+    background-image: url("../images/HomeAdd.png");
+    background-position: -36px 0;
+}
+.FunctionCer ul li.Homeml label.Delete {
+    background-image: url("../images/HomeAdd.png");
+    background-position: -54px 0;
+}
+.FunctionCer ul li.Homeml label.addmenu {
+    background-image: url("../images/HomeAdd.png");
+    background-position: 36px 0;
+}
+.FunctionCer ul li.Homeml label.HomeAdd_over {
+    background-image: url("../images/Modify.png");
+    background-position: 0 0;
+}
+.FunctionCer ul li.Homeml label.Modify_over {
+    background-image: url("../images/Modify.png");
+    background-position: -18px 0;
+}
+.FunctionCer ul li.Homeml label.Editor_over {
+    background-image: url("../images/Modify.png");
+    background-position: -36px 0;
+}
+.FunctionCer ul li.Homeml label.Delete_over {
+    background-image: url("../images/Modify.png");
+    background-position: -54px 0;
+}
+.FunctionCer ul li.Homeml label.addmenu_over {
+    background-image: url("../images/Modify.png");
+    background-position: 36px 0;
+}
+.FunctionCer ul li.Homeml dl {
+    background-color: #FFFFFF;
+    border: 1px solid #B0BACB;
+    position: absolute;
+    right: 0;
+    top: 23px;
+    width: 160px;
+}
+.FunctionCer ul li.Homeml dl a {
+    display: inline;
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    margin: 1px;
+    padding-left: 18px;
+    width: 140px;
+}
+.FunctionCer ul li.Homeml dl a.HomeAdd_A {
+    background-color: #E8EFCD;
+    color: #576D00;
+}
+.FunctionCon {
+    float: left;
+    margin: 20px 35px;
+    width: 700px;
+}
+.FunctionCon dd {
+    float: left;
+    margin-top: 10px;
+    width: 700px;
+}
+.FunctionCon dd span {
+    float: left;
+    line-height: 23px;
+}
+.FunctionCon .FunctionInp {
+    border: 1px solid #AEBAC0;
+    float: left;
+    padding: 3px 2px;
+    width: 230px;
+}
+.FunctionCon .FunctionInp_1 {
+    border: 1px solid #AEBAC0;
+    float: left;
+    padding: 3px 2px;
+    width: 500px;
+}
+.FunctionCon .FunctionSel {
+    border: 1px solid #AEBAC0;
+    float: left;
+    margin-right: 15px;
+    padding: 3px;
+    width: 130px;
+}
+.FunctionCon dt {
+    float: left;
+    line-height: 20px;
+    margin: 15px 0 25px;
+    width: 700px;
+}
+.FunctionCon .FunctionTex {
+    border: 1px solid #AEBAC0;
+    float: left;
+    height: 200px;
+    padding: 4px;
+    resize: none;
+    width: 690px;
+}
+.FunctionCon .FunctionBtn {
+    background-image: url("../images/FunctionBtn.gif");
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    height: 32px;
+    margin: 20px 0 0 290px;
+    width: 118px;
+}
+.keyword ul.HomemlBox .Homeml {
+    vertical-align: bottom;
+}
+.keyword {
+    display: inline;
+    float: left;
+    margin: 25px;
+    width: 730px;
+}
+.keyword ul {
+    padding-left: 30px;
+}
+.keyword ul li {
+    height: 32px;
+    line-height: 32px;
+    padding-left: 40px;
+}
+.keyword ul li.Less {
+    background: url("../images/test.png") no-repeat scroll 20px center transparent;
+}
+.keyword ul li span {
+    height: 29px;
+    line-height: 29px;
+    overflow: hidden;
+    width: 80px;
+}
+.keyword ul.HomemlBox {
+    border: 1px solid #AEB8CA;
+    height: 486px;
+    overflow-y: auto;
+    padding: 0;
+    position: relative;
+    width: 315px;
+}
+.keyword ul li.Homeml {
+    border-top: 1px solid #AEB8CA;
+    margin: 0;
+    position: relative;
+}
+.keyword ul li.Homeml .home1_left {
+    float: left;
+    width: 154px;
+}
+.keyword ul li.Homeml .home1_left input {
+    height: 20px;
+    line-height: 20px;
+    margin-top: 5px;
+}
+.keyword dt {
+    float: left;
+}
+.keyword ul li.Homeml .home1_right {
+    float: left;
+    width: 86px;
+}
+.keyword ul li.Homeml.Homeml_over {
+    background-color: #E8EFCD;
+}
+.keyword ul li.Homeml label {
+    cursor: pointer;
+    float: right;
+    height: 17px;
+    margin: 6px 10px 0 0;
+    width: 18px;
+}
+.keyword ul li.Homeml label.HomeAdd {
+    background-image: url("../images/HomeAdd.png");
+    background-position: 0 0;
+}
+.keyword ul li.Homeml label.Modify {
+    background-image: url("../images/HomeAdd.png");
+    background-position: -18px 0;
+}
+.keyword ul li.Homeml label.Editor {
+    background-image: url("../images/HomeAdd.png");
+    background-position: -36px 0;
+}
+.keyword ul li.Homeml label.Delete {
+    background-image: url("../images/HomeAdd.png");
+    background-position: -54px 0;
+}
+.keyword ul li.Homeml label.addmenu {
+    background-image: url("../images/HomeAdd.png");
+    background-position: 36px 0;
+}
+.keyword ul li.Homeml label.HomeAdd_over {
+    background-image: url("../images/Modify.png");
+    background-position: 0 0;
+}
+.keyword ul li.Homeml label.Modify_over {
+    background-image: url("../images/Modify.png");
+    background-position: -18px 0;
+}
+.keyword ul li.Homeml label.Editor_over {
+    background-image: url("../images/Modify.png");
+    background-position: -36px 0;
+}
+.keyword ul li.Homeml label.Delete_over {
+    background-image: url("../images/Modify.png");
+    background-position: -54px 0;
+}
+.keyword ul li.Homeml label.addmenu_over {
+    background-image: url("../images/Modify.png");
+    background-position: 36px 0;
+}
+.keyword .k_right {
+    background-color: #F9F9F9;
+    border: 1px solid #C4C4C4;
+    display: none;
+    float: right;
+    min-height: 455px;
+    padding: 15px;
+    width: 354px;
+}
+.keyword .k_right .r_title dt, .keyword .k_right .r_title dd {
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+}
+.keyword .k_right .r_title dt {
+    width: 60px;
+}
+.keyword .k_right .user_talk a {
+    color: #3C6700;
+    font-size: 12px;
+    text-decoration: underline;
+}
+.keyword .r_titleNoServiceType {
+    border: 1px solid #AEBAC0;
+    font-size: 12px;
+    height: 22px;
+    line-height: 22px;
+    margin-top: 15px;
+    padding: 2px;
+    width: 130px;
+}
+.keyword .k_right .r_title input {
+    border: 1px solid #AEBAC0;
+    font-size: 12px;
+    height: 20px;
+    margin-top: 14px;
+    padding-left: 5px;
+    width: 210px;
+}
+.keyword .k_right .hsborder {
+    border-top: 1px dotted #C4C4C4;
+    clear: both;
+}
+.keyword .k_right .r_title .k_st {
+    border: 1px solid #AEBAC0;
+    font-size: 12px;
+    height: 22px;
+    line-height: 22px;
+    margin-top: 15px;
+    padding: 2px;
+    width: 130px;
+}
+.keyword .k_right .user_talk {
+    background-color: #F2F2DA;
+    border: 1px solid #C4C4C4;
+    clear: both;
+    position: relative;
+    width: 356px;
+}
+.keyword .k_right .user_talk .user_title {
+    background-color: #1A1F23;
+    color: #FFFFFF;
+    font-family: "瀵邦喛钂嬮梿鍛寸拨";
+    font-size: 18px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+}
+.keyword .k_right .user_talk .user_pic {
+    float: left;
+    margin: 20px 0 0 18px;
+    width: 32px;
+}
+.keyword .k_right .user_talk .user_pic img {
+    border: 1px dotted #C4C4C4;
+    display: block;
+    height: 30px;
+    width: 30px;
+}
+.keyword .k_right .user_talk .talk_cent {
+    float: left;
+    margin: 20px 0 0 10px;
+    width: 281px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent01 {
+    background: url("../images/pics/talkbg.png") repeat scroll 0 0 transparent;
+    padding: 20px 0 0 28px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent02 {
+    background: url("../images/pics/talk02.png") repeat-y scroll 0 0 transparent;
+    padding: 20px 0 0 44px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent03 {
+    background: url("../images/pics/talkbg.png") repeat scroll 0 40px transparent;
+    height: 20px;
+    padding: 20px 0 0 22px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent03a {
+    background: url("../images/pics/talkbg.png") repeat scroll 0 286px transparent;
+    padding: 20px 0 0 22px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent04 {
+    background: url("../images/pics/talk04.png") repeat scroll 0 7px transparent;
+    height: 6px;
+    width: 279px;
+}
+.keyword .k_right .save_btn {
+    background: url("../images/pics/save12.png") repeat scroll 0 0 transparent;
+    height: 40px;
+    margin: 30px 0 40px 83px;
+    width: 119px;
+}
+.keyword .k_right .user_talk .cont_site {
+    color: blue;
+    cursor: pointer;
+    position: absolute;
+    text-decoration: none;
+    top: 65px;
+}
+.keyword .k_right .user_talk .talk_cent .view_top dd {
+    padding: 5px 0;
+}
+.keyword .k_right .user_talk .talk_cent .view_top .big_view {
+    height: 82px;
+    left: 1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 1px;
+    width: 224px;
+}
+.keyword .k_right .user_talk .talk_cent .view_top .big_view input {
+    cursor: pointer;
+    font-size: 68px;
+    height: 116px;
+    margin-left: -748px;
+}
+.keyword .k_right .user_talk .talk_cent .view_img {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #C4C4C4 #C4C4C4 -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 1px medium;
+    display: block;
+    height: 82px;
+    margin-top: 10px;
+    width: 224px;
+}
+.keyword .k_right .user_talk .talk_cent dl {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #565454;
+    border-color: -moz-use-text-color #C4C4C4 #C4C4C4;
+    border-image: none;
+    border-right: 1px solid #C4C4C4;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    height: 27px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    width: 214px;
+}
+.keyword .k_right .user_talk .talk_cent .view_top .view_pro {
+    color: #636F52;
+    font-family: "Arial";
+    padding: 10px 0;
+    text-align: right;
+    width: 224px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent02 .summary {
+    background-color: #FFFFFF;
+    color: #B8B8B8;
+    font-size: 12px;
+    height: 60px;
+    margin-top: 10px;
+    padding: 10px;
+    resize: none;
+    width: 204px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent02 .start_modefiy {
+    border: 1px solid #96A77C;
+    font-size: 12px;
+    height: 31px;
+    margin: 30px 0;
+    width: 226px;
+}
+.keyword .k_right .user_talk .talk_cent .view_top {
+    position: relative;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent01 .se_nub {
+    padding: 15px 0;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent01 .se_nub select {
+    border: 1px solid #AEBAC0;
+    height: 22px;
+    padding: 1px;
+    width: 80px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent01 span {
+    color: #636F52;
+    font-size: 12px;
+    padding-left: 10px;
+}
+.keyword .k_right .user_talk a {
+    color: #3C6700;
+    font-size: 12px;
+    text-decoration: underline;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent02 .allSubArticles {
+    margin-left: -20px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent02 h6 {
+    color: #010101;
+    float: left;
+    font-size: 14px;
+    width: 150px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent02 .more_viewpic {
+    border-bottom: 1px solid #AFD477;
+    height: 115px;
+    position: relative;
+    width: 267px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent02 .more_viewpic .big_view2 {
+    height: 52px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 52px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent02 .more_viewpic .big_view2 input {
+    cursor: pointer;
+    font-size: 50px;
+    margin-left: -615px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent02 .more_viewpic img {
+    background-color: #009BE3;
+    border: 1px solid #C4C4C4;
+    display: block;
+    float: right;
+    height: 52px;
+    margin: 9px;
+    width: 52px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent02 .allSubArticles {
+    margin-left: -20px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent02 h6 {
+    color: #010101;
+    float: left;
+    font-size: 14px;
+    width: 150px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent02 .cent_min {
+    float: right;
+    height: 40px;
+    line-height: 40px;
+    padding-top: 10px;
+    width: 170px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent02 .cent_min input {
+    border: 1px solid #96A77C;
+    color: #B8B8B8;
+    font-size: 12px;
+    height: 21px;
+    line-height: 21px;
+    padding-left: 5px;
+    width: 159px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent02 .cent_min {
+    float: right;
+    height: 40px;
+    line-height: 40px;
+    padding-top: 10px;
+    width: 170px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent02 .cent_min input {
+    border: 1px solid #96A77C;
+    color: #B8B8B8;
+    font-size: 12px;
+    height: 21px;
+    line-height: 21px;
+    padding-left: 5px;
+    width: 159px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent02 .start_modefiy {
+    border: medium none;
+    font-size: 12px;
+    height: 31px;
+    margin: 30px 0;
+    width: 226px;
+}
+.keyword .k_right .user_talk .talk_cent .D_int_style {
+    background-color: #FFFFFF;
+    border: medium none;
+    margin: 20px 0 10px 15px;
+    width: 228px;
+}
+.keyword .k_right .user_talk .talk_cent .D_int_style dt {
+    color: #737373;
+    font-family: "瀵邦喛钂嬮梿鍛寸拨";
+    font-size: 13px;
+    line-height: 40px;
+}
+.keyword .k_right .user_talk .talk_cent .D_int_style input {
+    border: 1px solid #96A77C;
+    color: #B8B8B8;
+    height: 23px;
+    line-height: 23px;
+    padding-left: 6px;
+    width: 220px;
+}
+.keyword .k_right .user_talk .talk_cent .D_int_style a {
+    color: #0000FF;
+    float: right;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.keyword .k_right .user_talk .talk_cent .talk_search {
+    height: 35px;
+    margin-top: 10px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_search .s_test {
+    border: 1px solid #AEBAC0;
+    color: #A7A7A7;
+    float: left;
+    height: 23px;
+    line-height: 23px;
+    padding-left: 5px;
+    width: 140px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_search .s_btn {
+    background: url("../images/pics/_talk_search.png") repeat scroll 0 -2px transparent;
+    color: #FFFFFF;
+    cursor: pointer;
+    float: left;
+    height: 25px;
+    margin-left: 6px;
+    width: 80px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent02 .item_01 {
+    margin: 0;
+    padding: 0;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent02 .item_01 li {
+    background-color: #FFFFFF;
+    border: 1px solid #A8C665;
+    float: left;
+    height: 84px;
+    margin: 3px 15px 2px 0;
+    padding: 5px;
+    width: 99px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent02 .item_01 li img {
+    background-color: #512400;
+    display: block;
+    height: 60px;
+    width: 96px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent02 .item_02 {
+    margin: 0;
+    padding: 0;
+}
+.keyword .k_right .user_talk .talk_cent .s_upbtn {
+    background: url("../images/pics/upbtn020.png") repeat scroll 0 0 transparent;
+    height: 27px;
+    width: 81px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent02 .item_02 li {
+    background-color: #FFFFFF;
+    border: 1px solid #A8C665;
+    height: 99px;
+    margin: 16px 0 0 2px;
+    padding: 10px;
+    position: relative;
+    width: 211px;
+}
+.keyword .k_right .user_talk .talk_cent .talk_cent02 .item_02 li img {
+    background: url("../images/pics/player.png") repeat scroll 0 0 transparent;
+    cursor: pointer;
+    display: block;
+    height: 49px;
+    width: 155px;
+}
+.massmessage {
+    display: inline;
+    float: left;
+    margin: 25px;
+    width: 730px;
+}
+.massmessage .topnav .looktask {
+    background-image: url("../images/lookmas.png");
+    color: #FFFFFF;
+    height: 24px;
+    width: 104px;
+}
+.massmessage .massBoxmid {
+    height: 70px;
+    line-height: 70px;
+    padding-left: 20px;
+}
+.massmessage .massBoxmid .selectbox {
+    border: 1px solid #AEB8CA;
+    height: 22px;
+    width: 65px;
+}
+.massmessage .massBoxmid .date {
+    background: url("../images/select.png") repeat scroll 0 0 transparent;
+    height: 23px;
+    line-height: 21px;
+    margin: 22px 7px;
+    padding-left: 10px;
+    text-align: left;
+    width: 60px;
+}
+.massmessage .massBoxmid .seitems {
+    float: left;
+    position: relative;
+}
+.massmessage .massBoxmid .plus {
+    cursor: pointer;
+    height: 12px;
+    position: absolute;
+    right: 7px;
+    top: 22px;
+    width: 20px;
+}
+.massmessage .massBoxmid .minus {
+    bottom: 23px;
+    cursor: pointer;
+    height: 10px;
+    position: absolute;
+    right: 7px;
+    width: 20px;
+}
+.massmessage .massBoxmid .date2 {
+    background: url("../images/select2.png") repeat scroll 0 0 transparent;
+    float: left;
+    height: 23px;
+    line-height: 23px;
+    overflow: hidden;
+    padding-left: 8px;
+    padding-right: 25px;
+    text-align: center;
+    width: 32px;
+}
+.massmessage .massBoxmid .dateund1 {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color #AEB8CA #AEB8CA;
+    border-image: none;
+    border-right: 1px solid #AEB8CA;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    left: 0;
+    line-height: 23px;
+    position: absolute;
+    text-align: center;
+    top: 23px;
+    width: 63px;
+}
+.massmessage .massBoxmid .dateund2 {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #F2F2F2;
+    border-color: -moz-use-text-color #AEB8CA #AEB8CA;
+    border-image: none;
+    border-right: 1px solid #AEB8CA;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    left: 0;
+    line-height: 23px;
+    position: absolute;
+    text-align: center;
+    top: 23px;
+    width: 68px;
+}
+.massmessage .massBoxmid strong {
+    float: left;
+}
+.massmessage .massBoxmid .selectdown {
+    background-color: #FFFFFF;
+    cursor: pointer;
+    float: left;
+    margin: 23px 8px;
+    position: relative;
+    text-align: center;
+}
+#items {
+    background-color: #FFFFFF;
+    z-index: 9999;
+}
+.massmessage .massBoxmid span {
+    float: left;
+}
+.massBoxbtm {
+    background-color: #F5F5F5;
+    border: 1px solid #AEB8CA;
+    float: left;
+    width: 719px;
+}
+.massBoxbtm .nav {
+    height: 32px;
+    width: 100%;
+}
+.massBoxbtm .nav li {
+    border-bottom: 1px solid #AEB8CA;
+    border-right: 1px solid #AEB8CA;
+    cursor: pointer;
+    float: left;
+    font-size: 14px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    width: 100px;
+}
+.massBoxbtm .nav .liright {
+    border-bottom: 1px solid #AEB8CA;
+    border-right: medium none;
+    float: left;
+    height: 32px;
+    line-height: 32px;
+    width: 235px;
+}
+.massBoxbtm .nav .hoverbox {
+    background: url("../images/slidehb.png") no-repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.massBoxbtm .nav .btm {
+    background: url("../images/slidehb.png") no-repeat scroll 0 -35px transparent;
+    height: 7px;
+    width: 100px;
+}
+.massBoxbtm .matter {
+    background-color: #FFFFFF;
+    display: none;
+    height: 121px;
+    margin: 24px 0 0 20px;
+    padding: 10px;
+    position: relative;
+    resize: none;
+    width: 660px;
+}
+.massBoxbtm .send {
+    padding: 50px 0 30px 20px;
+}
+.massBoxbtm .send input {
+    background: url("../images/sendb.png") no-repeat scroll 0 0 transparent;
+    border: medium none;
+    cursor: pointer;
+    height: 37px;
+    width: 110px;
+}
+.massBoxbtm .send label {
+    font-size: 12px;
+    line-height: 37px;
+    margin-left: 25px;
+}
+.massBoxbtm .send ._red {
+    color: red;
+    font-weight: bold;
+}
+.massBoxbtm .rechage {
+    bottom: -23px;
+    position: absolute;
+    right: -1px;
+}
+.massBoxbtm .promp {
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 123px;
+    text-align: center;
+    vertical-align: middle;
+}
+.massBoxbtm .music {
+    height: auto !important;
+}
+.massBoxbtm .music dl {
+    font-weight: bold;
+    padding: 15px;
+}
+.massBoxbtm .music dt {
+    height: 30px;
+    line-height: 30px;
+}
+.massBoxbtm .music dd .player {
+    background: url("../images/player.png") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    height: 49px;
+    line-height: 49px;
+    margin-left: 20px;
+    text-indent: 24px;
+    width: 155px;
+}
+.massBoxbtm .music dd .player .lasttime {
+    color: #FFFFFF;
+    font-weight: bold;
+    padding-right: 50px;
+}
+.massBoxbtm .matter .imtext {
+    margin-left: 20px;
+}
+.massBoxbtm .matter .imtext .image-box {
+    float: left;
+    font-size: 12px;
+    height: 110px;
+    margin: 10px 8px;
+    padding: 10px;
+    width: 123px;
+}
+.massBoxbtm .matter .imtext .image-box .testradio {
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+}
+.massBoxbtm .matter .imtext .image-box input {
+    margin-right: 10px;
+}
+.massBoxbtm .matter .imtext .only-imagetext {
+    background-image: url("../images/pics/tuwenbg1.png");
+}
+.massBoxbtm .matter .imtext .more-imagetext {
+    background-image: url("../images/pics/tuwenbg1.png");
+    background-position: -1px 135px;
+    padding-top: 18px;
+}
+.massBoxbtm .matter .imtext .text-imagetext {
+    background-image: url("../images/pics/tuwenbg2.png");
+    height: 36px;
+    padding-top: 86px;
+}
+.massBoxbtm .youhui a {
+    color: #0066F1;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.sendrecord {
+    float: left;
+    width: 730px;
+}
+.sendrecord .recordtop {
+    padding-bottom: 20px;
+}
+.sendrecord .recordtop .backer {
+    background-image: url("../images/back.gif");
+    height: 26px;
+    width: 88px;
+}
+.sendrecord .recordmatter {
+}
+.sendrecord .recordmatter li {
+    float: left;
+    white-space: normal;
+}
+.sendrecord .recordmatter .infro {
+    text-indent: 16px;
+    width: 405px;
+}
+.sendrecord .recordmatter .status {
+    width: 115px;
+}
+.sendrecord .recordmatter .sendnub {
+    width: 70px;
+}
+.sendrecord .recordmatter dt {
+    background-color: #E8E9E9;
+    border-bottom: 1px solid #AEB8CA;
+    border-top: 1px solid #AEB8CA;
+    height: 32px;
+    line-height: 32px;
+    width: 100%;
+}
+.sendrecord .recordmatter dd {
+    border-bottom: 1px solid #AEB8CA;
+    height: 95px;
+    padding-top: 16px;
+    width: 100%;
+}
+.sendrecord .recordmatter .infro .infroimg {
+    float: left;
+    text-indent: 2px;
+}
+.sendrecord .recordmatter .infro .infrotext {
+    float: left;
+    padding-left: 10px;
+    width: 250px;
+}
+.sendrecord .recordmatter .infro .infrotext p {
+    font-size: 12px;
+    height: 30px;
+    margin-top: 6px;
+    overflow: hidden;
+    padding: 0;
+    white-space: normal;
+    word-break: break-all;
+}
+.sendrecord .recordmatter .infro .infrotext .p1title {
+    color: #008000;
+    padding-right: 70px;
+}
+.sendrecord .recordmatter .sendnub strong {
+    color: #008000;
+}
+.sendrecord .recordmatter ._colorst {
+    background-color: #F7FFD7;
+}
+.sendrecord .recordbtm {
+    border-bottom: 1px solid #AEB8CA;
+    border-top: 1px solid #AEB8CA;
+    height: 60px;
+    line-height: 60px;
+    margin-top: 30px;
+}
+.popup_box {
+    width: 554px;
+}
+.popup_box p {
+    font-size: 12px !important;
+    padding: 0 !important;
+}
+.popup_box .title {
+    background: url("../images/pics/titlebg.png") repeat scroll 0 0 transparent;
+    height: 47px;
+    line-height: 47px;
+    padding-left: 14px;
+}
+.popup_box .title font {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+}
+.popup_box .mattereded {
+    background: url("../images/pics/matterededbg.png") repeat scroll 0 0 transparent;
+}
+.popup_box .mattereded .matterededbox {
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    padding: 18px;
+    width: 494px;
+}
+.popup_box .mattereded .matterededbox .file-box {
+    font-size: 14px;
+    position: relative;
+    width: 340px;
+}
+.popup_box .mattereded .matterededbox .file-box input {
+    float: left;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+.popup_box .mattereded .matterededbox .txt {
+    border: 1px solid #CDCDCD;
+    height: 22px;
+    width: 180px;
+}
+.popup_box .mattereded .matterededbox .btn {
+    background-color: #FFFFFF;
+    border: 1px solid #CDCDCD;
+    height: 24px;
+    width: 70px;
+}
+.popup_box .mattereded .matterededbox .file {
+    height: 24px;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 260px;
+}
+.popup_box .mattereded .matterededbox .backpo1 {
+    background: url("../images/pics/popbutton.png") repeat scroll 84px -2px transparent;
+    border: medium none;
+    cursor: pointer;
+    height: 27px;
+    width: 82px;
+}
+.popup_box .mattereded .matterededbox dl {
+    margin-bottom: 18px;
+    margin-top: 18px;
+}
+.popup_box .mattereded .matterededbox dt {
+    background-color: #F7FFD7;
+    border-bottom: 1px solid #AEB8CA;
+    border-top: 1px solid #AEB8CA;
+    height: 90px;
+    padding: 10px;
+}
+.popup_box .mattereded .matterededbox li {
+    float: left;
+}
+.popup_box .mattereded .matterededbox .float_rt {
+    float: right;
+    font-size: 14px;
+}
+.popup_box .mattereded .matterededbox .float_rt .color_blk {
+    color: #00690F;
+}
+.popup_box .mattereded .matterededbox .mg_rt {
+    margin-right: 10px;
+}
+.popup_box .mattereded .matterededbox .play {
+    background: url("../images/pics/player.png") repeat scroll 0 0 transparent;
+    font-size: 12px;
+    height: 49px;
+    line-height: 49px;
+    position: relative;
+    width: 155px;
+}
+.popup_box .mattereded .matterededbox .play strong {
+    color: #FFFFFF;
+    margin-left: 24px;
+    margin-right: 45px;
+}
+.popup_box .mattereded .matterededbox dd {
+    border-bottom: 1px solid #AEB8CA;
+    height: 90px;
+    padding: 10px;
+}
+.popup_box .mattereded .matterededbox .confirmpo {
+    background: url("../images/pics/popbutton.png") repeat scroll 0 0 transparent;
+    border: medium none;
+    cursor: pointer;
+    display: inline-block;
+    height: 34px;
+    margin-left: 105px;
+    margin-right: 40px;
+    width: 112px;
+}
+.popup_box .mattereded .matterededbox .cancelpo {
+    background: url("../images/pics/popbutton.png") repeat scroll -155px 0 transparent;
+    border: medium none;
+    cursor: pointer;
+    height: 34px;
+    width: 112px;
+}
+.popup_box .mattereded .matterededbox .page {
+    float: none;
+    margin-bottom: 10px !important;
+    padding-left: 82px;
+    width: auto !important;
+}
+.popup_box .mattereded .matterededbox .page a {
+    border: 1px solid #AEB8CA;
+    color: #B8B8B8;
+    float: left;
+    font-size: 12px;
+    margin: 0 3px;
+    padding: 3px 7px;
+}
+.popup_box .mattereded .matterededbox .page input {
+    border: 1px solid #AEB8CA;
+    color: green;
+    float: left;
+    height: 21px;
+    text-align: center;
+    width: 22px;
+}
+.popup_box .mattereded .matterededbox ._pic {
+    height: 109px;
+}
+.popup_box .mattereded .matterededbox .image-text {
+    border-bottom: 1px dotted #AEB8CA;
+    font-size: 12px;
+    height: 50px;
+}
+.popup_box .mattereded .matterededbox .image-text a {
+    color: #0000FF;
+}
+.popup_box .mattereded .matterededbox .image-text input {
+    background: url("../images/pics/tuwen.png") repeat scroll 0 0 transparent;
+    border: medium none;
+    height: 23px;
+    margin: 0 5px;
+    width: 78px;
+}
+.popup_box .mattereded .matterededbox .image-box {
+    float: left;
+    font-size: 12px;
+    height: 110px;
+    margin: 10px 8px;
+    padding: 10px;
+    width: 123px;
+}
+.popup_box .mattereded .matterededbox .image-box .testradio {
+    height: 34px;
+    line-height: 34px;
+    overflow: hidden;
+    width: 122px;
+}
+.popup_box .mattereded .matterededbox .image-box input {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.popup_box .mattereded .matterededbox .only-imagetext {
+    background-image: url("../images/pics/tuwenbg1.png");
+}
+.popup_box .mattereded .matterededbox .more-imagetext {
+    background-image: url("../images/pics/tuwenbg1.png");
+    background-position: -1px 135px;
+    padding-top: 18px;
+}
+.popup_box .mattereded .matterededbox .text-imagetext {
+    background-image: url("../images/pics/tuwenbg2.png");
+    height: 36px;
+    padding-top: 86px;
+}
+.popup_box .btm {
+    background: url("../images/pics/pbtmbg.png") repeat scroll 0 0 transparent;
+    height: 23px;
+}
+.content {
+    border: 1px solid #AEB8CA;
+    display: inline;
+    float: left;
+    margin: 25px;
+    width: 720px;
+}
+.content .subnav {
+}
+.content .subnav .navlist {
+}
+.content .subnav .navlist li {
+    border-bottom: 1px solid #AEB8CA;
+    border-right: 1px solid #AEB8CA;
+    cursor: pointer;
+    float: left;
+    font-size: 14px;
+    height: 33px;
+    line-height: 33px;
+    position: relative;
+    text-align: center;
+    width: 143px;
+}
+.content .subnav .navlist li .tagbtmh {
+    background: url("../images/pics/conlistH.png") repeat scroll 0 9px transparent;
+    height: 9px;
+    left: 0;
+    position: absolute;
+    top: 33px;
+    width: 143px;
+}
+.content .subnav .navlist .tagH {
+    background: url("../images/pics/conlistH.png") repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.content .subnav .navlist .clear-brd {
+    border-right: medium none;
+}
+.content .container {
+    background-color: #F9F9F9;
+    clear: both;
+}
+.content .container .creatitem {
+    height: 70px;
+    line-height: 70px;
+    padding-left: 20px;
+}
+.content .container .creatitem dt {
+    float: left;
+}
+.content .container .creatitem dd {
+    float: left;
+}
+.content .container .creatitem dd input {
+    background: url("../images/pics/tuwen.png") repeat scroll 0 0 transparent;
+    height: 23px;
+    margin-right: 10px;
+    width: 78px;
+}
+.content .container .newshow {
+    clear: both;
+}
+.content .container .newshow dt {
+    background-color: #EDEDED;
+    border-bottom: 1px solid #AEB8CA;
+    border-top: 1px solid #AEB8CA;
+    height: 34px;
+    line-height: 34px;
+    padding-left: 20px;
+}
+.content .container .newshow dt a {
+    background: url("../images/pics/topnav.gif") no-repeat scroll 10px center transparent;
+    border: 1px solid #C1BFBF;
+    border-radius: 5px 5px 5px 5px;
+    color: #3A5900;
+    display: inline;
+    float: right;
+    height: 19px;
+    line-height: 19px;
+    margin: 7px 10px 0 0;
+    padding: 0 7px 0 25px;
+    text-decoration: underline;
+}
+.content .container .newshow dd li {
+    float: left;
+    height: 177px;
+    margin: 8px;
+    padding: 10px;
+    position: relative;
+    width: 203px;
+}
+.content .container {
+    display: none;
+}
+.content .tuwen_matter {
+    display: block;
+}
+.content .container .newshow_pic {
+    clear: both;
+}
+.content .container .newshow_pic dt {
+    background-color: #EDEDED;
+    border-bottom: 1px solid #AEB8CA;
+    border-top: 1px solid #AEB8CA;
+    height: 34px;
+    line-height: 34px;
+    padding-left: 20px;
+}
+.content .container .newshow_pic li {
+    float: left;
+}
+.content .container .newshow_pic dd ul {
+    border-bottom: 1px solid #AEB8CA;
+    height: 110px;
+    padding: 20px;
+}
+.content .container .newshow_pic .pic_view {
+    position: relative;
+    width: 500px;
+}
+.content .container .newshow_pic .pic_view input {
+    background-color: #F9F9F9;
+    float: left;
+    font-weight: bold;
+    height: 28px;
+    padding-left: 10px;
+}
+.pic_viewInput {
+    background-color: #FFFFFF !important;
+    border: 1px solid #AEB8CA;
+    height: 26px !important;
+    width: 326px !important;
+}
+.content .container .newshow_pic .data_con {
+    font-weight: bold;
+    text-align: center;
+    width: 70px;
+}
+.content .container .newshow_pic .operate {
+    text-align: center;
+    width: 110px;
+}
+.content .container .newshow_pic .pic_ul_h {
+    background-color: #F7FFD7;
+}
+.content .container .newshow_pic .pic_ul_h input {
+    background-color: #F7FFD7;
+}
+.content .container .newshow_pic ._Operating {
+    height: 17px;
+    width: 18px;
+}
+.content .container .newshow_pic ._edit {
+    background: url("../images/pics/HomeAdd.png") repeat scroll 55px 0 transparent;
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.content .container .newshow_pic ._Opdel {
+    background: url("../images/pics/HomeAdd.png") repeat scroll 18px 0 transparent;
+    margin-left: 47px;
+}
+.content .container .newshow .only-item {
+    background: url("../images/pics/conbgb.png") repeat scroll 0 196px transparent;
+}
+.content .container .newshow .more-item {
+    background: url("../images/pics/conbga.png") repeat scroll 0 196px transparent;
+}
+.content .container .newshow .contitle {
+    font-size: 14px;
+    font-weight: bold;
+    height: 50px;
+    line-height: 50px;
+    overflow: hidden;
+    text-align: center;
+}
+.content .container .newshow .modefy {
+    height: 34px;
+    left: 11px;
+    position: absolute;
+    top: 100px;
+    width: 200px;
+}
+.content .creatimg_text {
+    background-color: #F9F9F9;
+    clear: both;
+    display: none;
+    padding: 35px 40px;
+}
+.content .creatimg_text dl {
+    clear: both;
+}
+.content .creatimg_text dt {
+    float: left;
+    margin-right: 5px;
+    text-align: right;
+    width: 62px;
+}
+.content .creatimg_text dd {
+    float: left;
+}
+.content .creatimg_text .model {
+    border: 1px solid #AEB8CA;
+    height: 70px;
+    width: 530px;
+}
+.content .selectnub select {
+    border: 1px solid #AEB8CA;
+    height: 22px;
+    padding: 2px 5px;
+    width: 120px;
+}
+.content .selectnub dt, .content .selectnub dd {
+    line-height: 22px;
+}
+.content .creatimg_text .view {
+    background-color: #F9FFE1;
+    border: 1px solid #AEB8CA;
+    padding: 20px;
+    width: 330px;
+}
+.content .creatimg_text .view p {
+    line-height: 24px;
+}
+.content .creatimg_text .viewmin {
+    background-color: #F9FFE1;
+    border: 1px solid #AEB8CA;
+    clear: both;
+    overflow: hidden;
+    padding: 20px;
+    width: 330px;
+}
+.content .creatimg_text .viewmin p {
+    float: left;
+    width: 232px;
+}
+.content .creatimg_text .btmnav {
+    border: 1px solid #AEB8CA;
+    clear: both;
+    height: 23px;
+    margin-bottom: 34px;
+    width: 631px;
+}
+.content .creatimg_text .btmnav li {
+    border-right: 1px solid #AEB8CA;
+    cursor: pointer;
+    float: left;
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+    width: 94px;
+}
+.content .creatimg_text .btmnav .viewnav {
+    background: url("../images/pics/viewnav.png") repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.content .creatimg_text .btmnav .viewtag {
+    background: url("../images/pics/viewnav.png") repeat scroll 0 7px transparent;
+    height: 7px;
+    position: relative;
+}
+.content .creatimg_text ._title dd input {
+    border: 1px solid #AEB8CA;
+    height: 21px;
+    width: 372px;
+}
+.content .creatimg_text ._title dt, .content .creatimg_text ._upload dt {
+    line-height: 22px;
+    text-align: right;
+    width: 67px;
+}
+.content .creatimg_text .consave {
+    background: url("../images/pics/consubmit.png") repeat scroll -1px -2px transparent;
+    border: medium none;
+    height: 32px;
+    margin: 0 15px 0 155px;
+    width: 120px;
+}
+.content .creatimg_text .conback {
+    background: url("../images/pics/consubmit.png") repeat scroll -145px -2px transparent;
+    border: medium none;
+    height: 32px;
+    width: 120px;
+}
+.content .creatimg_text ._upload dd span {
+    color: #909090;
+}
+.content .creatimg_text ._upload dd .test {
+    border: 1px solid #AEB8CA;
+    height: 21px;
+    width: 180px;
+}
+.content .creatimg_text ._upload dd .sbtn {
+    background: url("../images/pics/conupload.png") repeat scroll -1px -2px transparent;
+    height: 24px;
+    margin: 0 15px;
+    width: 90px;
+}
+.content .creatimg_text ._text dt {
+    line-height: 22px;
+    text-align: right;
+    width: 67px;
+}
+.content .creatimg_text ._text dd {
+    float: none;
+    padding-left: 8px;
+}
+.content .creatimg_text ._textedit {
+    border: 1px solid #AEB8CA;
+    height: 235px;
+    width: 600px;
+}
+.mdf-alpha {
+    background-color: #000000;
+    opacity: 0.65;
+}
+.content .container .newshow .modefy .m_edit {
+    cursor: pointer;
+    float: right;
+    height: 33px;
+    width: 40px;
+}
+.content .container .upload2 {
+    background: url("../images/pics/popbutton.png") repeat scroll 84px 0 transparent;
+    border: medium none;
+    cursor: pointer;
+    height: 27px;
+    width: 82px;
+}
+.content .container .test_up {
+    background: none repeat scroll 0 0 transparent !important;
+    border: 1px solid #AEB8CA;
+    height: 21px !important;
+    margin-left: 15px;
+    width: 180px !important;
+}
+.m_editH {
+    background-image: url("../images/pics/activitymodify.png");
+}
+.content .container .newshow .modefy .m_empty {
+    cursor: pointer;
+    float: right;
+    height: 33px;
+    width: 40px;
+}
+.m_emptyH {
+    background-image: url("../images/pics/activitydelete.png");
+}

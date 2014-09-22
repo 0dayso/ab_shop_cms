@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=gb2312" />
+<title>插入代码</title>
+<style>
+html{overflow:hidden;margin:0px;height:100%;width:100%}
+body{margin:0px;height:100%;width:100%}
+img{cursor:pointer;height:24px;width:24px}
+td{text-align:center;border:1px #cccccc solid;padding:5px}
+textarea{width:100%;height:150px;border:1px #cccccc solid;background:#ffffff;scrollbar-face-color:#F7F5F4;scrollbar-highlight-color:#cccccc;scrollbar-shadow-color:#cccccc;scrollbar-3dlight-color: #ffffff;scrollbar-arrow-color: #cccccc;scrollbar-track-color:#ffffff;scrollbar-darkshadow-color:#ffffff}
+input{cursor:pointer;width:80px;height:21px;border:1px #cccccc solid;background:#f1f1f1}
+</style>
+<body>
+<script language="javascript">
+function $(obj){return document.getElementById(obj)}
+window.returnValue="";
+function GetRandomNum(Min,Max){
+var Range = Max - Min;
+var Rand = Math.random();
+return(Min + Math.round(Rand * Range));
+}
+function InfoCode(InfoNum){
+var Str="";
+if(InfoNum==0){Str=""}else{
+	var num = GetRandomNum(1,1000);
+	var CodeId="code"+num;
+	var Html=$("code").value.replace(/</g, "&lt;");
+	Html=Html.replace(/\>/g, "&gt;");
+
+	Str+="<div class='CodeSpan'><textarea class='CodeTex' id='"+CodeId+"'>"+Html+"</textarea><BR/>"
+	Str+="<input class='CodeBut' type='button' value='运行代码' onclick=\"runCode('"+CodeId+"')\">";
+	Str+="<input class='CodeBut' type='button' value='复制代码' onclick=\"copycode('"+CodeId+"')\">";
+	Str+="<input class='CodeBut' type='button' value='保存代码' onclick=\"saveCode('"+CodeId+"')\"> <font>*</font> 提示：你可以修改部分代码再运行</div>";
+	}
+window.returnValue=Str;
+window.close()
+}
+</script>
+<body>
+<table style='width:100%;height:100%' cellspacing='8' cellpadding='0'>
+<tr><td valign="top">
+<div style="width:98%;margin:auto">
+<textarea id="code"></textarea>
+</div>
+<div style="width:98%;height:22px;margin:5px auto 0px auto;text-align:right">
+<input type="button" value="确定" onclick="InfoCode(1)"> 
+<input type="button" value="取消" onclick="InfoCode(0)">
+</div>
+</td></tr></table>
+</body>
+</html>

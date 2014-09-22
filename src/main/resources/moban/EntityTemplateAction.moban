@@ -1,0 +1,44 @@
+package net.rytong.action;
+
+import java.io.PrintWriter;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import javax.servlet.http.HttpServletResponse;
+
+import net.rytong.core.CRUDActionSupport;
+import net.rytong.entity.EntityTemplate;
+import net.rytong.core.CRUDService;
+import net.rytong.impl.EntityTemplateServiceImpl;
+
+import org.apache.struts2.ServletActionContext;
+import org.json.JSONArray;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+
+@Scope("prototype")
+@Component
+public class EntityTemplateAction extends CRUDActionSupport<EntityTemplate>{
+	private static final long serialVersionUID = 1L;
+	@Autowired
+	private EntityTemplateServiceImpl iEntityTemplateService;
+	
+	@Override
+	public String search() throws Exception {
+		Map<String, Object> filterMap = new HashMap<String, Object>();
+		EntityTemplate p = this.getEntity();
+		this.setFilterMap(filterMap);
+		return this.pageList();
+	}
+	
+	@Override
+	public void validate() {
+	}
+	
+	@Override
+	public CRUDService<EntityTemplate> getAutowiredService() {
+		return iEntityTemplateService;
+	}
+}

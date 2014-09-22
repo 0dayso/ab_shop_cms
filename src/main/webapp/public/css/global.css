@@ -1,0 +1,559 @@
+@charset "utf-8";
+body {
+	font-size: 12px;
+	background-color: white;
+	font: 80%/1.5em Verdana, Tahoma, arial, sans-serif;
+	height: 100%;
+}
+.loginTab{
+   background-image: url(../images/bgImage.png);
+   background-repeat: repeat-x; 
+}
+
+
+.LoginMid{
+    background-image: url(../images/bgLogin.png);
+	background-repeat:no-repeat;
+	font-size: 12px;
+	font: 80%/1.5em Verdana, Tahoma, arial, sans-serif;
+	height: 100%;
+  }
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+ul,li,h1,h2,h3,h4,h5,h6 {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+
+
+
+.title {
+	width: 100%;
+	height: 26px;
+	background-image: url(../images/title.png);
+	background-repeat: repeat-x;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: left;
+	color: #ffffff;
+}
+
+.main {
+	background-color: #FFF;
+	border-left: #d3e1e6 1px solid;
+	border-right: #d3e1e6 1px solid;
+}
+
+.th {
+	background-image: url(../images/th.png);
+	background-repeat: repeat-x;
+	height: 27px;
+}
+
+.th1 {
+	background-color: #699D08;
+	text-align: right;
+	width:10%;
+	color: #fff;
+}
+
+.tableborder {
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+.tableborders {
+	width: 100%;
+	text-align: left;
+	border-collapse: collapse;
+}
+.th2 {
+	background-color: #d6eaf1;
+	text-align: left;
+	width: 10%;
+}
+.row-even {
+	font-size: 12px;
+	line-height: 28px;
+	color: #353535;
+	height: 28px;
+}
+
+.row-odd {
+	background-color: #f5f6f6;
+	font-size: 12px;
+	line-height: 28px;
+	color: #353535;
+	height: 28px;
+}
+.headerPart{
+	width: 100%;
+	height: 38px;
+	background-color: #F4F4F4;
+	line-height: 38px;
+}
+.font1 {
+	font-size: 13px;
+	font-weight: bold;
+	margin-left: 10px;
+}
+.imgAll{
+	margin-left: 20px;
+}
+.menuName_1{
+	font-size: 13px;
+	margin-left: 15px;
+}
+A:unknown LINK {
+	TEXT-DECORATION: none
+}
+
+.pageTr {
+	background: url('../images/pagebg.png');
+	background-repeat: repeat-x;
+	height: 60px;
+}
+.query_btn {
+	background: url("../images/chaxun.png");
+	height: 25px;
+	width: 59px;
+	border: 0px;
+}
+
+.query_btn1 {
+	background: url("../images/huangsechaxun.png");
+	height: 25px;
+	width: 59px;
+	border: 0px;
+	cursor: hand;
+}
+
+.load_btn {
+	background: url("../images/upload-01.png");
+	height: 25px;
+	width: 59px;
+	border: 0px;
+}
+
+.load_btn1 {
+	background: url("../images/upload-02.png");
+	height: 25px;
+	width: 59px;
+	border: 0px;
+	cursor: hand;
+}
+
+.refresh_btn {
+	background: url("../images/refresh.png");
+	height: 25px;
+	width: 71px;
+	border: 0px;
+}
+
+.refresh_btn1 {
+	background: url("../images/refresh1.png");
+	height: 25px;
+	width: 71px;
+	border: 0px;
+	cursor: hand;
+}
+
+.add_btn {
+	background: url("../images/tianjia.png");
+	height: 25px;
+	width: 59px;
+	border: 0px;
+}
+
+.add_btn1 {
+	background: url("../images/huangsechanxun.png");
+	height: 25px;
+	width: 59px;
+	border: 0px;
+	cursor: hand;
+}
+
+.agree_btn {
+	background: url("../images/tongyi-01.png");
+	height: 25px;
+	width: 59px;
+	border: 0px;
+}
+
+.agree_btn1 {
+	background: url("../images/tongyi-02.png");
+	height: 25px;
+	width: 59px;
+	border: 0px;
+	cursor: hand;
+}
+
+.re_btn {
+	background: url("../images/tongbu-01.png");
+	height: 25px;
+	width: 52px;
+	border: 0px;
+}
+
+.re_btn1 {
+	background: url("../images/tongbu-02.png");
+	height: 25px;
+	width: 52px;
+	border: 0px;
+	cursor: hand;
+}
+
+.detail_btn {
+	background: url("../images/detail1.png");
+	height: 25px;
+	width: 52px;
+	border: 0px;
+}
+
+.detail_btn1 {
+	background: url("../images/detail2.png");
+	height: 25px;
+	width: 52px;
+	border: 0px;
+	cursor: hand;
+}
+
+.check_btn {
+	background: url("../images/check1.png");
+	height: 25px;
+	width: 52px;
+	border: 0px;
+}
+
+.check_btn1 {
+	background: url("../images/check2.png");
+	height: 25px;
+	width: 52px;
+	border: 0px;
+	cursor: hand;
+}
+
+.reset_btn {
+	background: url("../images/chongzhi01.png");
+	height: 25px;
+	width: 52px;
+	border: 0px;
+	cursor: hand;
+}
+
+.reset_btn1 {
+	background: url("../images/chongzhi02.png");
+	height: 25px;
+	width: 52px;
+	border: 0px;
+	cursor: hand;
+}
+
+.send_btn {
+	background: url("../images/fasong01.png");
+	height: 25px;
+	width: 52px;
+	border: 0px;
+	cursor: hand;
+}
+
+.send_btn1 {
+	background: url("../images/fasong02.png");
+	height: 25px;
+	width: 52px;
+	border: 0px;
+	cursor: hand;
+}
+
+.modify_btn {
+	background: url("../images/xiugai.png");
+	height: 25px;
+	width: 52px;
+	border: 0px;
+}
+
+.modify_btn1 {
+	background: url("../images/huangse.png");
+	height: 25px;
+	width: 52px;
+	border: 0px;
+	cursor: hand;
+}
+
+.del_btn {
+	background: url("../images/shanchu.png");
+	height: 25px;
+	width: 53px;
+	border: 0px;
+}
+
+.del_btn1 {
+	background: url("../images/haungse.png");
+	height: 25px;
+	width: 53px;
+	border: 0px;
+	cursor: hand;
+}
+
+.back_btn {
+	background: url("../images/back-02.png");
+	height: 25px;
+	width: 59px;
+	border: 0px;
+}
+
+.back_btn1 {
+	background: url("../images/back-01.png");
+	height: 25px;
+	width: 59px;
+	border: 0px;
+	cursor: hand;
+}
+
+.cancel_btn {
+	background: url("../images/cancel-02.png");
+	height: 25px;
+	width: 59px;
+	border: 0px;
+}
+
+.cancel_btn1 {
+	background: url("../images/cancel-01.png");
+	height: 25px;
+	width: 59px;
+	border: 0px;
+	cursor: hand;
+}
+
+.download_btn {
+	background: url("../images/xiazai-01.png");
+	height: 25px;
+	width: 59px;
+	border: 0px;
+}
+
+.business_btn {
+	background: url("../images/tuwen.png") no-repeat scroll 0 0 transparent;
+	height: 25px;
+	width: 80px;
+	border: 0px;
+	cursor: hand;
+}
+
+.business_btn1 {
+	background: url("../images/business.png");
+	height: 25px;
+	width: 69px;
+	border: 0px;
+	cursor: hand;
+}
+
+.download_btn1 {
+	background: url("../images/xiazai-02.png");
+	height: 25px;
+	width: 59px;
+	border: 0px;
+	cursor: hand;
+}
+
+.reply_btn {
+	background: url("../images/reply.png");
+	height: 25px;
+	width: 52px;
+	border: 0px;
+	cursor: hand;
+}
+
+.reply_btn1 {
+	background: url("../images/reply1.png");
+	height: 25px;
+	width: 52px;
+	border: 0px;
+	cursor: hand;
+}
+
+.assign_btn {
+	background: url("../images/assign1.png");
+	height: 25px;
+	width: 59px;
+	border: 0px;
+	cursor: hand;
+}
+
+.assign_btn1 {
+	background: url("../images/assign2.png");
+	height: 25px;
+	width: 59px;
+	border: 0px;
+	cursor: hand;
+}
+
+.open_btn {
+	background: url("../images/open.png");
+	height: 25px;
+	width: 52px;
+	border: 0px;
+}
+
+.open_btn1 {
+	background: url("../images/open1.png");
+	height: 25px;
+	width: 52px;
+	border: 0px;
+	cursor: hand;
+}
+
+.close_btn {
+	background: url("../images/close.png");
+	height: 25px;
+	width: 52px;
+	border: 0px;
+}
+
+.close_btn1 {
+	background: url("../images/close1.png");
+	height: 25px;
+	width: 52px;
+	border: 0px;
+	cursor: hand;
+}
+
+td {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #464646;
+	line-height: 25px;
+	word-break: break-all;
+	word-wrap: break-word;
+}
+
+.login_top {
+	width: 437px;
+	height: 85px;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+.login_center1 {
+	background: url("../images/login_2.png");
+	width: 15px;
+	height: 189px;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+.login_center2 {
+	background: url("../images/loginContent.png");
+	background-repeat:no-repeat;
+	float: right;
+	padding-top:100px;
+	width:362px;
+	height:294px;
+	top:-60px;
+	position:relative;
+}
+
+.login_center3 {
+	background: url("../images/login_4.png");
+	width: 20px;
+	height: 189px;
+	background-repeat: no-repeat;
+	float: right;
+}
+
+.login_bto {
+	background: url("../images/login_5.png");
+	width: 435px;
+	height: 128px;
+	float: left;
+	margin-left: 3px;
+}
+
+.topBtn {
+	margin-top: -12px;
+	width: 102px;
+	height: 108px;
+	float: left;
+	cursor: hand;
+	border-left: 1px solid #DEDEDE;
+}
+
+.topBtn1 {
+	margin-top: -12px;
+	width: 102px;
+	height: 108px;
+	float: left;
+	cursor: hand;
+	border-left: 1px solid #DEDEDE;
+	background: url("../images/backcolor_red.png") repeat-x;
+	background-position: 0px  104px;
+}
+.topBtn:hover,.topBtn1:hover{
+	background: url("../images/backcolor_red.png") repeat-x;
+	background-position: 0px  104px;
+}
+.topFont {
+    color: #000000;
+    font-family: '微软雅黑';
+    font-size: 15px;
+    text-decoration: none;
+    margin-top: 70px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.topFont1 {
+	color: #000000;
+    font-family: "微软雅黑";
+    font-size: 15px;
+    text-decoration: none;
+    margin-top: 70px;
+    text-align: center;
+    font-weight: normal;
+}
+
+INPUT {
+	height: 20px;
+	background-color: transparent;
+	cursor: pointer;
+	border: #dbdbdb 1px solid;
+	line-height: 20px;
+	vertical-align: middle;
+}
+
+SELECT {
+	background-color: transparent;
+	cursor: pointer;
+	border: #dbdbdb 1px solid;
+	line-height: 20px;
+	vertical-align: middle;
+}
+
+a{
+	text-decoration: none;
+}
+a:link {
+	color: black;
+	text-decoration: none;
+}
+
+a:active: {
+	color: red;
+}
+
+a:visited {
+	color: purple;
+	text-decoration: none;
+}
+
+a:hover {
+	color: red;
+}

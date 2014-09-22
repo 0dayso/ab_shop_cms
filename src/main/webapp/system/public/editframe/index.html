@@ -1,0 +1,29 @@
+<script type="text/javascript">
+function $(obj){return document.getElementById(obj)};
+function Sendnow(){
+frames['editor'].GetCon();
+alert($("sendcontent").value);
+
+frames['editor2'].GetCon();
+alert($("sendcontent2").value);
+};
+function clearA(){
+	frames['editor'].clearArea();
+	$("sendcontent").value="";
+}
+</script>
+<textarea id='sendcontent' style='display:none'>内容1内容1内容1内容1内容1</textarea>
+<iframe name='editor' src='edit/edit.html?V=sendcontent&T=2&A=1' frameBorder='0' marginHeight='0' marginWidth='0' scrolling='no' style='height:250px;width:640px'></iframe>
+<br><br>
+<textarea id='sendcontent2' style='display:none'>内容2内容2内容2内容2内容2内容2</textarea>
+<iframe name='editor2' src='edit/edit.html?V=sendcontent2&T=1&A=0' frameBorder='0' marginHeight='0' marginWidth='0' scrolling='no' style='height:250px;width:640px'></iframe>
+<br><br>
+<input type="button" value="清空" onclick="clearA();">
+<input type="button" value="提交" onclick="Sendnow();">
+
+<br><br>
+edit/edit.html?V=sendcontent&T=1&A=1
+<br>
+V=sendcontent :表单ID<br>
+T=1 : 1简单模式;2高级模式<br>
+A=1 : 0不允许切换模式,1允许切换模式<br>

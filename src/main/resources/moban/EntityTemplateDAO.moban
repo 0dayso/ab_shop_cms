@@ -1,0 +1,224 @@
+package net.rytong.jpa;
+
+import java.util.List;
+import java.util.Map;
+
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+import javax.persistence.Query;
+
+import net.rytong.utils.PagingEnumerator;
+import net.rytong.dao.IEntityTemplateDAO;
+import net.rytong.entity.Employee;
+import net.rytong.entity.EntityTemplate;
+
+import org.springframework.stereotype.Component;
+import org.springframework.transaction.annotation.Transactional;
+
+/**
+ * A data access object (DAO) providing persistence and search support for
+ * Visits entities. Transaction control of the save(), update() and delete()
+ * operations must be handled externally by senders of these methods or must be
+ * manually added to each of these methods for data to be persisted to the JPA
+ * datastore.
+ * 
+ * @see net.rytong.entity.Visits
+ * @author MyEclipse Persistence Tools
+ */
+@Transactional
+@Component
+public class EntityTemplateDAO implements IEntityTemplateDAO {
+	@PersistenceContext
+	private EntityManager em;
+
+	/**
+	 * Perform an initial save of a previously unsaved EntityTemplate entity. All
+	 * subsequent persist actions of this entity should use the #update()
+	 * method. This operation must be performed within the a database
+	 * transaction context for the entity's data to be permanently saved to the
+	 * persistence store, i.e., database. This method uses the
+	 * {@link javax.persistence.EntityManager#persist(Object)
+	 * EntityManager#persist} operation.
+	 * 
+	 * <pre>
+	 * EntityManagerHelper.beginTransaction();
+	 * CustomerDAO.save(entity);
+	 * EntityManagerHelper.commit();
+	 * </pre>
+	 * 
+	 * @param entity
+	 *            EntityTemplate entity to persist
+	 * @throws RuntimeException
+	 *             when the operation fails
+	 */
+	public void save(EntityTemplate entity) {
+		try {
+			em.persist(entity);
+		} catch (RuntimeException re) {
+			throw re;
+		}
+	}
+
+	/**
+	 * Delete a persistent EntityTemplate entity. This operation must be performed
+	 * within the a database transaction context for the entity's data to be
+	 * permanently deleted from the persistence store, i.e., database. This
+	 * method uses the {@link javax.persistence.EntityManager#remove(Object)
+	 * EntityManager#delete} operation.
+	 * 
+	 * <pre>
+	 * EntityManagerHelper.beginTransaction();
+	 * CustomerDAO.delete(entity);
+	 * EntityManagerHelper.commit();
+	 * entity = null;
+	 * </pre>
+	 * 
+	 * @param entity
+	 *            EntityTemplate entity to delete
+	 * @throws RuntimeException
+	 *             when the operation fails
+	 */
+	public void delete(EntityTemplate entity) {
+		try {
+			entity = em.getReference(EntityTemplate.class, entity.getId());
+			em.remove(entity);
+		} catch (RuntimeException re) {
+			throw re;
+		}
+	}
+
+	/**
+	 * Persist a previously saved EntityTemplate entity and return it or a copy of it
+	 * to the sender. A copy of the EntityTemplate entity parameter is returned when
+	 * the JPA persistence mechanism has not previously been tracking the
+	 * updated entity. This operation must be performed within the a database
+	 * transaction context for the entity's data to be permanently saved to the
+	 * persistence store, i.e., database. This method uses the
+	 * {@link javax.persistence.EntityManager#merge(Object) EntityManager#merge}
+	 * operation.
+	 * 
+	 * <pre>
+	 * EntityManagerHelper.beginTransaction();
+	 * entity = CustomerDAO.update(entity);
+	 * EntityManagerHelper.commit();
+	 * </pre>
+	 * 
+	 * @param entity
+	 *            EntityTemplate entity to update
+	 * @return EntityTemplate the persisted EntityTemplate entity instance, may not be the
+	 *         same
+	 * @throws RuntimeException
+	 *             if the operation fails
+	 */
+	public EntityTemplate update(EntityTemplate entity) {
+		try {
+			EntityTemplate result = em.merge(entity);
+			return result;
+		} catch (RuntimeException re) {
+			throw re;
+		}
+	}
+
+	public EntityTemplate findById(Long id) {
+		try {
+			EntityTemplate instance = em.find(EntityTemplate.class, id);
+			return instance;
+		} catch (RuntimeException re) {
+			throw re;
+		}
+	}
+	
+	/**
+	 * Find all Employee entities.
+	 * 
+	 * @param rowStartIdxAndCount
+	 *            Optional int varargs. rowStartIdxAndCount[0] specifies the the
+	 *            row index in the query result-set to begin collecting the
+	 *            results. rowStartIdxAndCount[1] specifies the the maximum
+	 *            count of results to return.
+	 * @return List<Employee> all Employee entities
+	 */
+	@SuppressWarnings("unchecked")
+	public List<EntityTemplate> findAll(final int... rowStartIdxAndCount) {
+		try {
+			final String queryString = "select model from EntityTemplate model";
+			Query query = em.createQuery(queryString);
+			if (rowStartIdxAndCount != null && rowStartIdxAndCount.length > 0) {
+				int rowStartIdx = Math.max(0, rowStartIdxAndCount[0]);
+				if (rowStartIdx > 0) {
+					query.setFirstResult(rowStartIdx);
+				}
+
+				if (rowStartIdxAndCount.length > 1) {
+					int rowCount = Math.max(0, rowStartIdxAndCount[1]);
+					if (rowCount > 0) {
+						query.setMaxResults(rowCount);
+					}
+				}
+			}
+			return query.getResultList();
+		} catch (RuntimeException re) {
+			throw re;
+		}
+	}
+
+	/**
+	 * Find all EntityTemplate entities with a specific property value.
+	 * 
+	 * @param propertyName
+	 *            the name of the EntityTemplate property to query
+	 * @param value
+	 *            the property value to match
+	 * @param rowStartIdxAndCount
+	 *            Optional int varargs. rowStartIdxAndCount[0] specifies the the
+	 *            row index in the query result-set to begin collecting the
+	 *            results. rowStartIdxAndCount[1] specifies the the maximum
+	 *            number of results to return.
+	 * @return List<EntityTemplate> found by query
+	 */
+	@SuppressWarnings("unchecked")
+	public List<EntityTemplate> findByProperty(String propertyName,
+			final Object value, final int... rowStartIdxAndCount) {
+
+		try {
+			final String queryString = "select model from EntityTemplate model where model."
+					+ propertyName + "= :propertyValue";
+			Query query = em.createQuery(queryString);
+			query.setParameter("propertyValue", value);
+			if (rowStartIdxAndCount != null && rowStartIdxAndCount.length > 0) {
+				int rowStartIdx = Math.max(0, rowStartIdxAndCount[0]);
+				if (rowStartIdx > 0) {
+					query.setFirstResult(rowStartIdx);
+				}
+
+				if (rowStartIdxAndCount.length > 1) {
+					int rowCount = Math.max(0, rowStartIdxAndCount[1]);
+					if (rowCount > 0) {
+						query.setMaxResults(rowCount);
+					}
+				}
+			}
+			return query.getResultList();
+		} catch (RuntimeException re) {
+
+			throw re;
+		}
+	}
+
+	@Override
+	public PagingEnumerator<EntityTemplate> pageList(Map<String, Object> filterMap,
+			int pageNo, int pageSize) {
+		try{
+			StringBuffer queryString = new StringBuffer();
+			queryString.append("select model from EntityTemplate model ");
+			
+			if(filterMap.containsKey("moban")){
+				queryString.append("model.moban =" + filterMap.get("moban"));
+			}
+			PagingEnumerator<EntityTemplate> listpEnumerator=new PagingEnumerator(em, queryString.toString(), pageNo, pageSize);
+			return listpEnumerator;
+		}catch(RuntimeException re){
+			throw re;
+		}
+	}
+}

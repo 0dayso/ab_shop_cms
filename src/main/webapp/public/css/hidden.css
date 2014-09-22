@@ -1,0 +1,51 @@
+.white_content {
+	Z-INDEX: 1002;
+	BORDER-BOTTOM: #d6e9f1 12px solid;
+	POSITION: absolute;
+	BORDER-LEFT: #d6e9f1 12px solid;
+	PADDING-BOTTOM: 6px;
+	BACKGROUND-COLOR: white;
+	PADDING-LEFT: 16px;
+	WIDTH: 70%;
+	PADDING-RIGHT: 16px;
+	DISPLAY: none;
+	OVERFLOW: auto;
+	BORDER-TOP: #d6e9f1 12px solid;
+	TOP: 25%;
+	BORDER-RIGHT: #d6e9f1 12px solid;
+	PADDING-TOP: 6px;
+	LEFT: 12%;
+}
+
+.black_overlay {
+	Z-INDEX: 1001;
+	POSITION: absolute;
+	FILTER: alpha(opacity = 80);
+	BACKGROUND-COLOR: #f5f5f5;
+	WIDTH: 100%;
+	DISPLAY: none;
+	TOP: 0%;
+	LEFT: 0%;
+	-moz-opacity: 0.8;
+	opacity: .80
+}
+
+.close {
+	TEXT-ALIGN: right;
+	MARGIN: 0px 0px 6px;
+	WIDTH: 100%;
+	FLOAT: right;
+	CLEAR: both
+}
+
+.close a {
+	COLOR: #333;
+	FONT-SIZE: 14px;
+	FONT-WEIGHT: 700;
+	TEXT-DECORATION: none
+}
+
+.con {
+	LINE-HEIGHT: 21px;
+	TEXT-INDENT: 1.5pc
+}

@@ -1,0 +1,122 @@
+@CHARSET "UTF-8";
+/* 
+* @description: tab 
+* @author: wu.weihua 
+* @update: wu.weihua (2013-08-21) 
+*/
+.tab-container {
+	margin: 0;
+	padding: 0;
+	max-height: 35px;
+}
+
+ul.tabs {
+	display: inline-block;
+	margin: 0;
+	list-style-type: none;
+	line-height: 35px;
+	max-height: 35px;
+	overflow: hidden;
+	padding-right: 20px
+}
+
+ul.tabs>li.active {
+	z-index: 1;
+	background: #d6e2f5;
+}
+
+ul.tabs>li.active:before {
+	border-color: transparent #d6e2f5 transparent transparent;
+	border-color: transparent transparent transparent transparent\0;
+}
+
+ul.tabs>li.active:after {
+	border-color: transparent transparent transparent #d6e2f5;
+	border-color: transparent transparent transparent transparent\0;
+}
+
+ul.tabs>li {
+	position: relative;
+	float: left;
+	margin: 5px -10px 0;
+	margin: 5px 2px 0\0;
+	-webkit-border-radius: 20px 25px 0 0/ 90px 170px 0 0;
+	-moz-border-radius: 20px 25px 0 0/ 90px 170px 0 0;
+	border-radius: 20px 25px 0 0/ 90px 170px 0 0;
+	padding: 0 30px 0 25px;
+	height: 170px;
+	background: #c4d7f6;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, .5);
+	max-width: 200px;
+}
+
+ul.tabs>li>a {
+	display: inline-block;
+	max-width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	text-decoration: none;
+	color: #222;
+}
+
+ul.tabs>li:before,ul.tabs>li:after {
+	content: '';
+	background: transparent;
+	height: 20px;
+	width: 20px;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	border-width: 10px;
+	top: 0px;
+	border-style: solid;
+	position: absolute;
+}
+
+ul.tabs>li:before {
+	border-color: transparent #c4d7f6 transparent transparent;
+	border-color: transparent transparent transparent transparent\0;
+	-webkit-transform: rotate(48deg);
+	-moz-transform: rotate(48deg);
+	-ms-transform: rotate(48deg);
+	left: -23px;
+}
+
+ul.tabs>li:after {
+	border-color: transparent transparent transparent #c4d7f6;
+	border-color: transparent transparent transparent transparent\0;
+	-webkit-transform: rotate(-48deg);
+	-moz-transform: rotate(-48deg);
+	-ms-transform: rotate(-48deg);
+	right: -17px;
+}
+
+.tab-body {
+	background: #d6e2f5;
+	border: inherit 5px #d6e2f5;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	width: 550px;
+	height: 200px;
+}
+
+.tab-body-inner {
+	position: relative;
+	left: 35px;
+	top: 35px;
+}
+
+/* Clear Fix took for HTML 5 Boilerlate*/
+.clearfix:before,.clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix {
+	zoom: 1;
+}

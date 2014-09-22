@@ -1,0 +1,1103 @@
+
+* {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+a {
+    border: 0 none;
+    color: #000000;
+    text-decoration: none;
+}
+a:hover {
+    border: 0 none;
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "瀹嬩綋";
+    font-size: 12px;
+    font-weight: normal;
+}
+body {
+    color: #000000;
+    font-family: "瀹嬩綋";
+    font-size: 12px;
+    font-weight: normal;
+}
+ul li, ol li {
+    list-style-type: none;
+    text-decoration: none;
+}
+.WebsiteBox {
+    display: inline;
+    float: left;
+    margin: 24px 0;
+    width: 780px;
+}
+.WebsiteBox h1 a {
+    background-image: url("../images/ActivityNav.gif");
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline;
+    float: left;
+    height: 26px;
+    line-height: 26px;
+    margin-left: 20px;
+    text-align: center;
+    width: 108px;
+}
+.WebsiteBox .WebsiteTop {
+    background-color: #EDEDED;
+    border-bottom: 1px solid #BEBEBE;
+    border-top: 1px solid #BEBEBE;
+    float: left;
+    margin: 20px 0;
+    padding: 15px 0;
+    width: 780px;
+}
+.WebsiteBox .WebsiteTop span {
+    display: inline;
+    float: left;
+    line-height: 23px;
+    margin-left: 50px;
+}
+.WebsiteBox .WebsiteTop label {
+    color: #828282;
+    display: inline;
+    float: left;
+    line-height: 23px;
+    margin-left: 10px;
+}
+.WebsiteBox .WebsiteTop .WebsiteInp {
+    background-color: #F4F4F4;
+    border: 1px solid #AEBAC0;
+    color: #7C8285;
+    float: left;
+    padding: 3px;
+    width: 435px;
+}
+.WebsiteBox .WebsiteLt {
+    border: 1px solid #C3C3C3;
+    float: left;
+    margin-left: 20px;
+    min-height: 300px;
+    width: 165px;
+}
+.WebsiteBox .WebsiteLt dt {
+    background-color: #EDEDED;
+    border-bottom: 1px dotted #A0A0A0;
+    float: left;
+    line-height: 35px;
+    padding-left: 15px;
+    width: 150px;
+}
+.WebsiteBox .WebsiteLt dd {
+    border-bottom: 1px dotted #A0A0A0;
+    float: left;
+    line-height: 30px;
+    padding: 0 15px;
+    width: 135px;
+}
+.WebsiteBox .WebsiteLt dd a {
+    float: left;
+    overflow: hidden;
+    width: 135px;
+}
+.WebsiteBox .WebsiteRt {
+    border: 1px solid #C3C3C3;
+    display: inline;
+    float: left;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    width: 550px;
+}
+.WebsiteBox .WebsiteRt dt {
+    background-color: #EDEDED;
+    border-bottom: 1px dotted #A0A0A0;
+    float: left;
+    height: 35px;
+    width: 550px;
+}
+.WebsiteBox .WebsiteRt dt span {
+    display: inline;
+    float: left;
+    font-weight: bold;
+    line-height: 35px;
+    margin-left: 10px;
+}
+.WebsiteBox .WebsiteRt dt a {
+    background-image: url("../images/websitert.gif");
+    float: right;
+    height: 23px;
+    line-height: 23px;
+    margin: 6px 10px 0 0;
+    text-align: center;
+    width: 78px;
+}
+.WebsiteBox .WebsiteRt dd {
+    border-bottom: 1px dotted #A0A0A0;
+    float: left;
+    height: 30px;
+    width: 550px;
+}
+.WebsiteBox .WebsiteRt dd .WebsiteRt_Lt {
+    display: inline;
+    float: left;
+    line-height: 30px;
+    margin-left: 15px;
+    width: 450px;
+}
+.WebsiteBox .WebsiteRt dd .WebsiteRt_Lt a {
+    float: left;
+}
+.WebsiteBox .WebsiteRt dd .WebsiteRt_Lt label {
+    color: #999999;
+    display: inline;
+    float: left;
+    font-family: Arial;
+    margin-left: 10px;
+}
+.WebsiteBox .WebsiteRt dd .WebsiteRt_Rt {
+    float: right;
+    margin-right: 15px;
+}
+.WebsiteBox .WebsiteRt dd .WebsiteRt_Rt span {
+    cursor: pointer;
+    display: inline;
+    float: left;
+    height: 17px;
+    margin: 6px 0 7px 10px;
+    width: 18px;
+}
+.WebsiteBox .WebsiteRt dd .WebsiteRt_Rt span.Modify {
+    background-image: url("../images/HomeAdd.png");
+    background-position: -18px 0;
+}
+.WebsiteBox .WebsiteRt dd .WebsiteRt_Rt span.Delete {
+    background-image: url("../images/HomeAdd.png");
+    background-position: -54px 0;
+}
+.WebsiteBox .WebsiteRt dd .WebsiteRt_Rt span.Modify_over {
+    background-image: url("../images/Modify.png");
+}
+.WebsiteBox .WebsiteRt dd .WebsiteRt_Rt span.Delete_over {
+    background-image: url("../images/Modify.png");
+}
+.WebsiteBox .WebsiteRt dd.WebsiteRt_over {
+    background-color: #F7FFD7;
+}
+.WebsiteBox .WebsiteRt dd.WebsiteRt_over .WebsiteRt_Lt a {
+    color: #FF0000;
+    text-decoration: underline;
+}
+.WebsiteNew {
+    display: inline;
+    float: left;
+    margin: 25px 50px;
+    width: 680px;
+}
+.WebsiteNew dd {
+    float: left;
+    margin-bottom: 15px;
+    width: 680px;
+}
+.WebsiteNew dd span {
+    float: left;
+    line-height: 23px;
+}
+.WebsiteNew dd label {
+    color: #909090;
+    display: inline;
+    float: left;
+    line-height: 23px;
+    margin-left: 15px;
+}
+.WebsiteNew dd em {
+    font-style: normal;
+}
+.WebsiteNew .WebsiteNewInp {
+    border: 1px solid #AEBAC0;
+    float: left;
+    padding: 3px;
+    width: 300px;
+}
+.WebsiteNew .WebsiteNewTex {
+    border: 1px solid #AEBAC0;
+    float: left;
+    height: 150px;
+    padding: 3px;
+    resize: none;
+    width: 670px;
+}
+.WebsiteNew dt {
+    display: inline;
+    float: left;
+    margin: 15px 0 0 210px;
+}
+.WebsiteNew dt .SaveBtn {
+    background-image: url("../images/SaveBtn.gif");
+    cursor: pointer;
+    float: left;
+    height: 32px;
+    width: 118px;
+}
+.WebsiteNew dt .ReturnBtn {
+    background-image: url("../images/ReturnBtn.gif");
+    cursor: pointer;
+    display: inline;
+    float: left;
+    height: 32px;
+    margin-left: 20px;
+    width: 118px;
+}
+.ManaSite {
+    display: inline;
+    float: left;
+    margin: 24px;
+    width: 732px;
+}
+.ManaSite h1 a {
+    float: left;
+    height: 24px;
+    width: 84px;
+}
+.ManaSite .ManaSiteTop {
+    border: 1px solid #BEBEBE;
+    float: left;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    width: 730px;
+}
+.ManaSite .ManaSiteTop dt {
+    border-bottom: 1px solid #BEBEBE;
+    float: left;
+    height: 36px;
+    width: 730px;
+}
+.ManaSite .ManaSiteTop dt span {
+    color: #B2B2B2;
+    display: inline;
+    float: left;
+    line-height: 36px;
+    margin-left: 15px;
+}
+.ManaSite .ManaSiteTop .ManaSiteBtn {
+    background-image: url("../images/ManaSite.gif");
+    cursor: pointer;
+    display: inline;
+    float: left;
+    height: 24px;
+    margin: 6px 0 0 15px;
+    width: 104px;
+}
+.ManaSite .ManaSiteTop dd {
+    float: left;
+    height: 25px;
+    margin-top: 10px;
+    width: 730px;
+}
+.ManaSite .ManaSiteTop dd .ManaSite_Lt {
+    display: inline;
+    float: left;
+    margin-left: 15px;
+}
+.ManaSite .ManaSiteTop dd .ManaSite_Lt .cltitle {
+    background: none repeat scroll 0 0 transparent;
+    float: left;
+    padding: 4px 0;
+}
+.ManaSite .ManaSiteTop dd .ManaSite_Lt a {
+    float: left;
+    height: 25px;
+    line-height: 25px;
+}
+.ManaSite .ManaSiteTop dd .ManaSite_Rt {
+    display: inline;
+    float: left;
+    margin-left: 15px;
+}
+.ManaSite .ManaSiteTop dd .ManaSite_Rt span {
+    cursor: pointer;
+    display: inline;
+    float: left;
+    height: 17px;
+    margin: 4px 0 4px 10px;
+    width: 18px;
+}
+.ManaSite .ManaSiteTop dd .ManaSite_Rt span.Modify {
+    background-image: url("../images/HomeAdd.png");
+    background-position: -18px 0;
+}
+.ManaSite .ManaSiteTop dd .ManaSite_Rt span.Delete {
+    background-image: url("../images/HomeAdd.png");
+    background-position: -54px 0;
+}
+.ManaSite .ManaSiteTop dd .ManaSite_Rt span.Modify_over {
+    background-image: url("../images/Modify.png");
+}
+.ManaSite .ManaSiteTop dd .ManaSite_Rt span.Delete_over {
+    background-image: url("../images/Modify.png");
+}
+.ManaSite .ManaSiteTop dd.ManaSite_over {
+    background-color: #F7FFD7;
+}
+.ManaSite .ManaSiteTop dd.ManaSite_over .WebsiteRt_Lt a {
+    color: #FF0000;
+    text-decoration: underline;
+}
+.ManaSite .ManaSiteTop .ManaSiteInp {
+    border: 1px solid #AEB8CA;
+    display: inline;
+    margin: 15px 0 0 15px;
+    padding: 3px 0;
+    text-align: center;
+    width: 130px;
+}
+.ManaSite .ManaSiteCer {
+    border: 1px solid #BEBEBE;
+    float: left;
+    margin-top: 20px;
+    padding: 30px;
+    width: 670px;
+}
+.ManaSite .ManaSiteCer dd {
+    float: left;
+    margin-bottom: 30px;
+    width: 670px;
+}
+.ManaSite .ManaSiteCer .ManaDD {
+    height: 52px;
+}
+.ManaSite .ManaSiteCer .ManaDD span {
+    line-height: 52px;
+}
+.ManaSite .ManaSiteCer .ManaDD p {
+    line-height: 52px;
+}
+.ManaSite .ManaSiteCer dd span {
+    float: left;
+    line-height: 23px;
+    text-align: right;
+    width: 100px;
+}
+.ManaSite .ManaSiteCer dd div {
+    float: left;
+    line-height: 23px;
+}
+.ManaSite .ManaSiteCer dd div b {
+    float: left;
+}
+.ManaSite .ManaSiteCer dd div .webtitle {
+    background-color: #FFFFFF;
+    float: left;
+    font-weight: bold;
+    padding: 4px 0;
+}
+.ManaSite .ManaSiteCer dd div b .borderh1 {
+    border: 1px solid #AEB8CA;
+    font-weight: normal;
+    padding: 3px 0;
+}
+.ManaSite .ManaSiteCer dd div a {
+    background-color: #F4F4F4;
+    border: 1px solid #CFD8DD;
+    color: #0070C7;
+    display: inline;
+    float: left;
+    line-height: 21px;
+    margin-left: 10px;
+    text-align: center;
+    width: 40px;
+}
+.ManaSite .ManaSiteCer dd div .ManaInp {
+    border: 1px solid #AEBAC0;
+    float: left;
+    padding: 3px;
+    width: 240px;
+}
+.ManaSite .ManaSiteCer dd p {
+    color: #909090;
+    display: inline;
+    float: left;
+    line-height: 23px;
+    margin-left: 10px;
+}
+.ManaSite .ManaSiteCer dd em {
+    font-style: normal;
+}
+.ManaSite .ManaSiteCer dd .UploadBtn {
+    background-image: url("../images/UploadBtn.gif");
+    cursor: pointer;
+    float: left;
+    height: 52px;
+    overflow: hidden;
+    position: relative;
+    width: 162px;
+}
+.ManaSite .ManaSiteCer dd .ReSelect {
+    background-image: url("../images/ReSelect.gif");
+    cursor: pointer;
+    float: left;
+    height: 22px;
+    width: 89px;
+}
+.ManaSite .ManaSiteCer dt {
+    border: 1px solid #DADADA;
+    display: inline;
+    float: left;
+    height: 360px;
+    margin: 10px 0 50px 100px;
+    padding: 10px;
+    width: 220px;
+}
+.ManaSite .ManaSiteCer dt img {
+    height: 360px;
+    width: 220px;
+}
+#ChooseBox {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+}
+#ChooseBox .ChooseBg {
+    background-color: #333333;
+    height: 100%;
+    left: 0;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+#ChooseBox .ChooseCer {
+    background-color: #FFFFFF;
+    border: 5px solid #000000;
+    border-radius: 10px 10px 10px 10px;
+    left: 50%;
+    margin-left: -340px;
+    padding: 30px;
+    position: absolute;
+    top: 100px;
+    width: 600px;
+}
+#ChooseBox .ChooseCer h1 {
+    float: left;
+    font-family: "寰蒋闆呴粦";
+    font-size: 18px;
+    margin: 0;
+    padding-left: 14px;
+    width: 520px;
+}
+#ChooseBox .ChooseCer ul {
+    float: left;
+    margin-top: 20px;
+    width: 540px;
+}
+#ChooseBox .ChooseCer ul a {
+    float: left;
+}
+#ChooseBox .ChooseCer ul li {
+    border: 1px solid #DADADA;
+    cursor: pointer;
+    display: inline;
+    float: left;
+    height: 360px;
+    margin: 0 14px;
+    padding: 10px;
+    position: relative;
+    width: 220px;
+}
+#ChooseBox .ChooseCer ul li img {
+    float: left;
+    height: 360px;
+    width: 220px;
+}
+#ChooseBox .ChooseCer ul .MaskBox {
+    height: 360px;
+    left: 10px;
+    position: absolute;
+    top: 10px;
+    width: 220px;
+}
+#ChooseBox .ChooseCer ul .MaskBox .MaskBg {
+    background-color: #333333;
+    height: 360px;
+    left: 0;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    width: 220px;
+}
+#ChooseBox .ChooseCer ul .MaskBox .MaskCon {
+    left: 0;
+    position: absolute;
+    top: 105px;
+    width: 220px;
+}
+#ChooseBox .ChooseCer ul .MaskBox .MaskCon span {
+    background-image: url("../images/mask.png");
+    display: inline;
+    float: left;
+    height: 37px;
+    margin-left: 88px;
+    width: 43px;
+}
+#ChooseBox .ChooseCer ul .MaskBox .MaskCon p {
+    color: #F1F1F1;
+    float: left;
+    font-family: "寰蒋闆呴粦";
+    font-size: 24px;
+    margin-top: 10px;
+    text-align: center;
+    width: 220px;
+}
+#ChooseBox .ChooseCer ul .MaskBox.MaskSelect .MaskCon span {
+    background-image: url("../images/maskselect.png");
+}
+#ChooseBox .ChooseCer ul .MaskBox.MaskSelect .MaskCon p {
+    color: #FFFFFF;
+}
+#ChooseBox .ChooseCer dl {
+    float: left;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    padding-right: 14px;
+    width: 520px;
+}
+#ChooseBox .ChooseCer dl dt {
+    float: right;
+    font-family: "寰蒋闆呴粦";
+    font-size: 18px;
+    width: 530px;
+}
+#ChooseBox .ChooseCer dl dt a {
+    float: right;
+}
+#ChooseBox .ChooseCer dl dt p {
+    float: right;
+    padding: 0 10px;
+}
+#ChooseBox .ChooseCer dl dd {
+    float: right;
+    margin-top: 10px;
+}
+#ChooseBox .ChooseCer dl dd a {
+    font-family: "寰蒋闆呴粦";
+    font-size: 15px;
+    padding: 0 5px;
+}
+#ChooseBox .ChooseCer .ChooseSave {
+    background-image: url("../images/SaveBtn.gif");
+    display: inline;
+    float: left;
+    height: 32px;
+    margin-left: 140px;
+    width: 118px;
+}
+#ChooseBox .ChooseCer .ChooseBack {
+    background-image: url("../images/ReturnBtn.gif");
+    display: inline;
+    float: left;
+    height: 32px;
+    margin-left: 30px;
+    width: 118px;
+}
+#ChooseBox .ChooseCer .ChooseShut {
+    background-image: url("../images/ChooseShut.png");
+    cursor: pointer;
+    height: 53px;
+    position: absolute;
+    right: -24px;
+    top: -23px;
+    width: 53px;
+}
+#ChooseBox .ChooseCer .ChooseShut_over {
+    background-image: url("../images/ChooseShut_over.png");
+}
+#ChooseBox .ChooseCer .ChooseLt {
+    cursor: pointer;
+    height: 44px;
+    left: 20px;
+    position: absolute;
+    top: 230px;
+    width: 44px;
+}
+#ChooseBox .ChooseCer .ChooseLt img {
+    display: inline;
+    float: left;
+    height: 19px;
+    margin: 12px 16px 13px;
+    width: 12px;
+}
+#ChooseBox .ChooseCer .ChooseRt {
+    cursor: pointer;
+    height: 44px;
+    position: absolute;
+    right: 20px;
+    top: 230px;
+    width: 44px;
+}
+#ChooseBox .ChooseCer .ChooseRt img {
+    display: inline;
+    float: left;
+    height: 19px;
+    margin: 12px 16px 13px;
+    width: 12px;
+}
+#ChooseBox .ChooseCer .ChooseOver {
+    background-image: url("../images//ChooseOver.png");
+}
+.UserPagin {
+    float: left;
+    padding: 20px 0 20px 180px;
+    width: 430px;
+}
+.UserPagin ul {
+    float: left;
+    width: 430px;
+}
+.UserPagin ul a {
+    border: 1px solid #B8B8B8;
+    color: #999999;
+    cursor: pointer;
+    float: left;
+    height: 21px;
+    line-height: 21px;
+    margin-right: 3px;
+    padding: 0 7px;
+}
+.UserPagin ul a:hover {
+    background-color: #809C0E;
+    border: 0 none;
+    color: #FFFFFF;
+    height: 23px;
+    line-height: 23px;
+    padding: 0 8px;
+}
+.UserPagin ul a.select {
+    background-color: #809C0E;
+    border: 0 none;
+    color: #FFFFFF;
+    height: 23px;
+    line-height: 23px;
+    padding: 0 8px;
+}
+.UserPagin .PaginationInp {
+    border: 1px solid #B8B8B8;
+    float: left;
+    padding: 3px 0;
+    text-align: center;
+    width: 30px;
+}
+.UserPagin .PaginationBtn {
+    background-color: #FFFFFF;
+    border: 1px solid #B8B8B8;
+    color: #B8B8B8;
+    cursor: pointer;
+    float: left;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    height: 23px;
+    margin-left: 3px;
+    width: 35px;
+}
+.UserPagin1 {
+    float: left;
+    padding: 20px 0 20px 75px;
+    width: 360px;
+}
+.UserPagin1 ul {
+    float: left;
+    width: 360px;
+}
+.UserPagin1 ul a {
+    border: 1px solid #B8B8B8;
+    color: #999999;
+    cursor: pointer;
+    float: left;
+    height: 21px;
+    line-height: 21px;
+    margin-right: 3px;
+    padding: 0 7px;
+}
+.UserPagin1 ul a:hover {
+    background-color: #809C0E;
+    border: 0 none;
+    color: #FFFFFF;
+    height: 23px;
+    line-height: 23px;
+    padding: 0 8px;
+}
+.UserPagin1 ul a.select {
+    background-color: #809C0E;
+    border: 0 none;
+    color: #FFFFFF;
+    height: 23px;
+    line-height: 23px;
+    padding: 0 8px;
+}
+.UserPagin1 .PaginationInp {
+    border: 1px solid #B8B8B8;
+    float: left;
+    padding: 3px 0;
+    text-align: center;
+    width: 30px;
+}
+.UserPagin1 .PaginationBtn {
+    background-color: #FFFFFF;
+    border: 1px solid #B8B8B8;
+    color: #B8B8B8;
+    cursor: pointer;
+    float: left;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    height: 23px;
+    margin-left: 3px;
+    width: 35px;
+}
+
+
+.ui-sortable-placeholder {
+    background: none repeat scroll 0 0 #FFFFFF !important;
+    border: 1px dashed black;
+    height: 50px !important;
+    visibility: visible !important;
+}
+.ui-sortable-placeholder * {
+    visibility: hidden;
+}
+.divwebsitetitle {
+    text-indent: 5px;
+}
+.change_more {
+    cursor: pointer;
+}
+.ke-container-default {
+    width: 320px !important;
+}
+.ke-container {
+    margin-left: 22px !important;
+}
+.ke-edit {
+    height: 220px !important;
+}
+.ke-edit-iframe {
+    height: 220px !important;
+}
+.show_tmp {
+    padding: 40px 0 0 50px;
+}
+.list5 {
+    background: url("../images//tag_m.png") no-repeat scroll 0 0 transparent;
+}
+.list_mb {
+    border: 1px solid #CCCCCC;
+    cursor: pointer;
+    float: left;
+    height: 360px;
+    margin: 0 5px;
+    padding: 10px;
+    position: relative;
+    width: 220px;
+}
+.list_mb .edition {
+    background: url("../images//edition.png") repeat scroll 0 0 transparent;
+    height: 59px;
+    position: absolute;
+    right: -1px;
+    top: -1px;
+    width: 60px;
+    z-index: 99;
+}
+.list_mb .editionpop {
+    background-color: #FFFFFF;
+    border-top: 1px solid #E1E1E1;
+    bottom: 0;
+    display: none;
+    left: 0;
+    padding: 30px 0;
+    position: absolute;
+    width: 240px;
+}
+#ChooseBox .ChooseCer .list_mb .editionpop h1 {
+    color: #DD4F2F;
+    float: left;
+    font-family: "宋体";
+    font-size: 14px;
+    line-height: 25px;
+    padding: 0;
+    text-align: center;
+    width: 240px;
+}
+.list_mb .editionpop span {
+    color: #999999;
+    float: left;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+    width: 240px;
+}
+.list_mb .editionpop a {
+    background-image: url("../images//editionbtn.png");
+    color: #FFFFFF;
+    display: inline;
+    float: left;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    height: 38px;
+    line-height: 38px;
+    margin: 20px 0 0 55px;
+    text-align: center;
+    width: 129px;
+}
+.list_mb .editionpop .editionclose {
+    background: url("../images//editionclose.png") repeat scroll 0 0 transparent;
+    cursor: pointer;
+    height: 16px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 16px;
+}
+.list_mb2 {
+    border: 1px solid #CCCCCC;
+    cursor: pointer;
+    float: left;
+    height: 227px;
+    margin: 0 5px;
+    padding: 10px;
+    position: relative;
+    width: 155px;
+}
+.count-btn6_m {
+    background: url("../images//count_btn.png") no-repeat scroll -3px -2px transparent;
+    clear: both;
+    cursor: pointer;
+    height: 45px;
+    position: relative;
+    width: 293px;
+}
+.banner_g6 {
+    height: 100px;
+    overflow: hidden;
+    width: 311px;
+}
+.img_box li {
+    float: left;
+    height: 100px;
+    width: 311px;
+}
+.img_box2 li {
+    float: left;
+    height: 100px;
+    width: 311px;
+}
+.guide_box {
+    position: absolute;
+    right: 50px;
+    top: 10px;
+}
+.guide_box li {
+    background: url("../images//guide_li.png") repeat scroll -19px 0 transparent;
+    cursor: pointer;
+    float: left;
+    height: 17px;
+    width: 18px;
+}
+.guide_box2 {
+    position: absolute;
+    right: 50px;
+    top: 10px;
+}
+.guide_box2 li {
+    background: url("../images//guide_li.png") repeat scroll -19px 0 transparent;
+    cursor: pointer;
+    float: left;
+    height: 17px;
+    width: 18px;
+}
+.guide_title {
+    background-color: #4F4F4F;
+    color: #FFFFFF;
+    height: 30px;
+    line-height: 30px;
+    opacity: 0.7;
+    position: absolute;
+    text-align: center;
+    top: 69px;
+    width: 311px;
+}
+.up_loadIMG {
+    margin-left: -27px;
+}
+.up_loadIMG dt, .up_loadIMG dd {
+    margin: 5px 0;
+}
+.up_loadIMG dt {
+    position: relative;
+}
+.up_loadIMG dt img {
+    border: 1px solid #C1C1C1;
+    cursor: pointer;
+    height: 88px;
+    width: 214px;
+}
+.up_loadIMG dd input {
+    border: 1px solid #C1C1C1;
+    color: #C1C1C1;
+    font-size: 12px;
+    height: 21px;
+    line-height: 21px;
+    padding-left: 5px;
+    width: 209px;
+}
+.up_loadIMG h5 {
+    color: #8E8E8E;
+    float: left;
+    width: 340px;
+}
+.up_loadIMG dl {
+    border-bottom: 1px dotted #C1C1C1;
+    clear: both;
+    padding: 10px 0;
+    position: relative;
+    width: 340px;
+}
+.up_loadIMG2 {
+    margin-left: -27px;
+}
+.up_loadIMG2 dt, .up_loadIMG2 dd {
+    margin: 5px 0;
+}
+.up_loadIMG2 dt {
+    position: relative;
+}
+.up_loadIMG2 dt img {
+    border: 1px solid #C1C1C1;
+    cursor: pointer;
+    height: 88px;
+    width: 214px;
+}
+.up_loadIMG2 dd input {
+    border: 1px solid #C1C1C1;
+    color: #C1C1C1;
+    font-size: 12px;
+    height: 21px;
+    line-height: 21px;
+    padding-left: 5px;
+    width: 209px;
+}
+.up_loadIMG2 h5 {
+    color: #8E8E8E;
+    float: left;
+    width: 340px;
+}
+.up_loadIMG2 dl {
+    border-bottom: 1px dotted #C1C1C1;
+    clear: both;
+    padding: 10px 0;
+    position: relative;
+    width: 340px;
+}
+.close_upImg {
+    background: url("../images//close_upimg.png") repeat scroll 0 0 transparent;
+    cursor: pointer;
+    display: none;
+    height: 21px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 21px;
+}
+.up_loadIMG dd span {
+    line-height: 23px !important;
+    margin: 0;
+    text-align: left;
+    width: 214px !important;
+}
+.up_loadIMG .up_click6 {
+    height: 88px;
+    left: 1px;
+    overflow: hidden;
+    position: absolute;
+    top: 1px;
+    width: 214px;
+}
+.up_loadIMG .up_click6 input {
+    cursor: pointer;
+    font-size: 70px;
+    height: 88px;
+    opacity: 0;
+}
+.up_loadIMG2 dd span {
+    line-height: 23px !important;
+    margin: 0;
+    text-align: left;
+    width: 214px !important;
+}
+.up_loadIMG2 .up_click6 {
+    height: 88px;
+    left: 1px;
+    overflow: hidden;
+    position: absolute;
+    top: 1px;
+    width: 214px;
+}
+.up_loadIMG2 .up_click6 input {
+    cursor: pointer;
+    font-size: 70px;
+    height: 88px;
+    opacity: 0;
+}
+.add_guide_btn, .add_guide_btn2 {
+    background: url("../images//add_guide.png") repeat scroll 0 0 transparent;
+    cursor: pointer;
+    height: 44px;
+    margin: 20px 0 20px -30px;
+    width: 346px;
+}
+.save_guide_btn {
+    background: url("../images//MicrosBtn.gif") repeat scroll 0 0 transparent;
+    cursor: pointer;
+    height: 30px;
+    margin: 10px 0 20px 90px;
+    width: 109px;
+}
+.busi_mask {
+    background-color: black;
+    color: #FF0000;
+    font-size: 26px;
+    height: 100%;
+    left: 0;
+    line-height: 360px;
+    opacity: 0.7;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+}
+.moreimg_tpl {
+    padding: 20px 0 0 5px;
+}
+.save_guide_btn2 {
+    background: url("../images//MicrosBtn.gif") repeat scroll 0 0 transparent;
+    cursor: pointer;
+    height: 30px;
+    margin: 10px 0 20px 90px;
+    width: 109px;
+}
+.page-s {
+    clear: both;
+    padding: 10px 0 0 10px;
+}
+.listrong {
+    font-family: "微软雅黑";
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 8px;
+}
+

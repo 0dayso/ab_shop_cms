@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<welcome-file-list>
+		<!-- <welcome-file>index.jsp</welcome-file> -->
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+	<session-config>
+		<session-timeout>30</session-timeout>
+	</session-config>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>verifyCode</servlet-name>
+		<servlet-class>net.rytong.utils.VerifyCode</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>verifyCode</servlet-name> 
+		<url-pattern>/img/verifyCode</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>weiXinServlet</servlet-name>
+		<servlet-class>net.rytong.servlet.WeiXinServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>weiXinServlet</servlet-name>
+		<url-pattern>/weixin/*</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>BangdingServlet</servlet-name>
+		<servlet-class>net.rytong.servlet.BangdingServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BangdingServlet</servlet-name>
+		<url-pattern>/bangding</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>WxPublicServlet</servlet-name>
+		<servlet-class>net.rytong.servlet.WxPublicServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>WxPublicServlet</servlet-name>
+		<url-pattern>/wxpublic</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>WxSubclausServlet</servlet-name>
+		<servlet-class>net.rytong.servlet.WxSubclausServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>WxSubclausServlet</servlet-name>
+		<url-pattern>/WxSubclaus</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>WxZanServlet</servlet-name>
+		<servlet-class>net.rytong.servlet.WxZanServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>WxZanServlet</servlet-name>
+		<url-pattern>/WxZan</url-pattern>
+	</servlet-mapping>
+	
+	<filter>
+		<filter-name>checkLogin</filter-name>
+		<filter-class>net.rytong.utils.CheckLoginFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>checkLogin</filter-name> 
+		<url-pattern>*.jsp</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>checkLogin</filter-name> 
+		<url-pattern>*.do</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>checkLogin</filter-name> 
+		<url-pattern>*.action</url-pattern>
+	</filter-mapping>
+	
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>getMenuData</servlet-name>
+		<servlet-class>net.rytong.utils.GetMenuData</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>getMenuData</servlet-name>
+		<url-pattern>/menu/getMenuData</url-pattern>
+	</servlet-mapping>
+	
+	<!-- 懒加载配置 -->
+	<filter>
+		<filter-name>openSessionInViewFilter</filter-name>
+		<filter-class>org.springframework.orm.jpa.support.OpenEntityManagerInViewFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>openSessionInViewFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+	<listener>
+		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+	</listener>
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>classpath:applicationContext.xml</param-value>
+	</context-param>
+
+	<filter>
+		<filter-name>struts2</filter-name>
+		<filter-class>org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>struts2</filter-name>
+		<url-pattern>/*</url-pattern>
+		<!-- <dispatcher>FORWARD</dispatcher> -->
+		<dispatcher>REQUEST</dispatcher>
+	</filter-mapping>
+	
+</web-app>

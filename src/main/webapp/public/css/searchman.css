@@ -1,0 +1,437 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	height: 100%;
+	max-height: 100%;
+	background: #fff;
+	font-size: 12px;
+}
+
+body {
+	height: 100%;
+	line-height: 1.6em;
+	max-height: 100%;
+	overflow: hidden;
+}
+
+h3 {
+	font-size: 14px;
+}
+
+img {
+	border-style: none;
+}
+
+.inner,#innerFooter {
+	border-color: #DEDEDE;
+}
+
+#sortList li a {
+	color: #0958FF
+}
+
+#sortList li a:hover {
+	color: #670FF9;
+	background-color: #efefef;
+}
+
+#header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 80px;
+	z-index: 21;
+}
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 60px;
+	z-index: 21;
+}
+
+#innerHeader {
+	margin: 12px 15px;
+	height: 48px;
+	background-color: #efefef;
+}
+
+#innerFooter {
+	margin: 12px 0px;
+	margin-right:15px;
+	padding: 8px;
+	border-width: 1px;
+	border-style: solid;
+}
+
+#sortList,#selector ,#key-panel{
+	position: absolute;
+	left: 0px;
+	width: 200px;
+}
+
+#tools,#gird,#pages {
+	position: absolute;
+	left: 200px;
+	right: 15px;
+}
+
+#xbar {
+	position: absolute;
+	top: 70px;
+	bottom: 60px;
+	left: 195px;
+	width: 5px;
+	cursor: e-resize;
+}
+
+#sortList {
+	top: 70px;
+	height: 46px;
+	z-index: 19;
+}
+
+#sortList li {
+	
+}
+
+#selector,#key-panel {
+	top: 40px;
+	bottom: 68px;
+	z-index: 16;
+}
+
+#tools {
+	top: 70px;
+	z-index: 15;
+}
+
+#gird {
+	top: 40px;
+	bottom: 65px;
+	z-index: 9;
+}
+
+#pages {
+	bottom: 60px;
+	z-index: 12;
+}
+
+#selector .inner {
+	height: 100%;
+}
+
+.inner p a {
+	display: block;
+	float: left;
+	margin-right: 10px;
+}
+
+#tools .inner,#pages .inner {
+	line-height: 24px;
+	height: 24px;
+}
+
+#gird .inner {
+	height: 100%;
+	overflow: auto;
+}
+
+.inner {
+	border-width: 0;
+	border-style: solid;
+	background-color: #fff;
+	overflow: auto;
+}
+.inner1 {
+	border-width: 1px;
+	border-style: solid;
+	top:0px;
+	bottom: 68px;
+	z-index: 16;
+	position: absolute;
+	left: 0px;
+	width: 200px;
+	height: 100%;
+	 border-color: #DEDEDE;
+}
+#sortList .inner {
+	padding: 0px;
+}
+
+* html #sortList .inner {
+	height: 48px
+}
+
+#sortList li {
+	float: left;
+	width: 100%;
+}
+
+#sortList li a {
+	line-height: 20px;
+	display: block;
+	padding: 3px 0 0px 25px;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.folder a {
+	background: url(/jscss/demoimg/201306/folder.gif) no-repeat 5px 3px;
+}
+
+.tags a {
+	background: url(/jscss/demoimg/201306/tags.gif) no-repeat 5px 3px;
+}
+
+#pages {
+	text-align: right;
+}
+
+* html #selector {
+	height: 100%;
+	top: 0;
+	bottom: 0;
+	border-top: 126px solid #fff;
+	border-bottom: 60px solid #fff;
+}
+
+* html #gird {
+	height: 100%;
+	top: 0;
+	bottom: 0;
+	border-top: 150px solid #fff;
+	border-bottom: 96px solid #fff;
+}
+
+* html #xbar {
+	height: 100%;
+	top: 0;
+	bottom: 0;
+	border-top: 70px solid #fff;
+	border-bottom: 60px solid #fff;
+}
+
+* html #pages .inner {
+	height: 34px
+}
+
+.headerTitle {
+	height:36px;
+	width: 100%;
+	background-color: #699D08;
+	line-height: 36px;
+	margin-left: -1px;
+	margin-top: -1px;
+}
+
+.headerTitle span {
+	margin-left: 5px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.add_menu_inp {
+	background-color: #fff;
+	font-size: 11px;
+	border: 0px;
+	color: #000;
+	margin-left: 25px;
+	margin-top: -5px;
+}
+.add_menu_inp_1 {
+	background: url("../images/tuwen.png") no-repeat scroll 0 0 transparent;
+	font-size: 11px;
+	border: 0px;
+	color: #000;
+	margin-left: 25px;
+	width: 80px;
+	height: 23px;
+}
+#td1_2 {
+	width: 50px;
+}
+
+.select_menu_inp {
+	background-color: #fff;
+	font-size: 11px;
+	color: #000;
+	margin-top: -5px;
+}
+
+#td1 {
+	width: 25px;
+	border: 0px;
+}
+
+#td1_1 {
+	border: 0px;
+}
+
+#td2 {
+	width: 20px;
+}
+
+.tr_back_list {
+	background-color: #C7E792;
+}
+
+.title_pic {
+	font-size: 14px;
+	margin-left: 15px;
+	margin-top: 5px;
+	width: 220px;
+	word-wrap: break-word;
+}
+
+.title_pic_1,.title_pic_2 {
+	font-size: 13px;
+	font-weight: bold;
+	margin-left: 1%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.title_pic_2 {
+	color: #53BCE5;
+}
+
+.left_pic {
+	width: 250px;
+	height: auto;
+	border: 1px solid #B7D8ED;
+	float: left;
+}
+
+.right_pic {
+	width: 400px;
+	height: 400px;
+	border: 1px solid #B7D8ED;
+	margin-left: 270px;
+}
+
+.news_describe {
+	width: 220px;
+	margin-left: 15px;
+	height: auto;
+	margin-bottom: 5px;
+	font-size: 11px;
+}
+
+#img_pic {
+	width: 220px;
+	height: 200px;
+	margin-left: 15px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+#huodong_pic1 {
+	width: 220px;
+	height: 200px;
+	margin-left: 15px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.input_pic {
+	margin-left: 1%;
+}
+
+.add_pic_check {
+	width: 100%;
+	height: 90%;
+}
+
+.submit_save {
+	width: 99.9%;
+	height: 8%;
+}
+
+.key_save_submit {
+	float: left;
+	margin-top: 10px;
+	margin-left: 20px;
+	width: 80px;
+	background: url("../images/tuwen.png") no-repeat scroll 0 0 transparent;
+    height: 23px;
+    margin-right: 10px;
+}
+
+.pic_content_1 {
+	margin-top: 5px;
+	width: 100%;
+	border-top: 1px solid #B7D8ED;
+	height: auto;
+	display: table;
+}
+
+.pic_content_add {
+	margin-top: 1px;
+	width: 100%;
+	border-top: 1px solid #B7D8ED;
+	height: 30px;
+	background-color: #B7D8ED;
+}
+
+#img_pic_1 {
+	width: 70px;
+	height: 70px;
+	margin-left: 15px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.img_pic_2 {
+	position: absolute;
+	margin-left: 150px;
+}
+
+.img_pic_3,.img_pic_3_1 {
+	position: absolute;
+	margin-left: 130px;
+	margin-top: 2px;
+}
+
+.img_pic_3_1 {
+	margin-left: 235px;
+}
+
+#img_pic_add {
+	width: 25px;
+	height: 25px;
+	margin-top: 2px;
+	margin-left: 110px;
+}
+
+.pic_content_1_1 {
+	float: right;
+	width: 140px;
+	margin-right: 15px;
+	height: auto;
+	margin-top: 10px;
+	display: table-cell;
+}
+
+.describe_1 {
+	width: 140px;
+	height: auto;
+	font-size: 11px;
+	word-wrap: break-word;
+}
+
+#pic_content_list div:hover {
+	cursor: pointer;
+}
+.whiteTil{
+	color: #fff;
+}

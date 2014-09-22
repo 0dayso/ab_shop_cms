@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<constant name="struts.i18n.encoding" value="UTF-8" />
+	<constant name="struts.action.extension" value="action,xxx" />
+	<constant name="struts.serve.static.browserCache" value="false" /> <!-- develop -->
+	<constant name="struts.custom.i18n.resources" value="project_service" />
+	<constant name="struts.ognl.allowStaticMethodAccess" value="true"></constant> 
+	<constant name="struts.ui.theme" value="simple" />
+	<constant name="struts.multipart.saveDir" value="/tmp"/>
+	<constant name="struts.multipart.maxSize" value="10485760" /><!--该修改仅用于测试 -->
+	
+	<package name="struts2" extends="struts-default" namespace="/system">
+		<interceptors>
+			<!-- 定义权限拦截 -->
+			<interceptor name="myInterceptor" class="net.rytong.interceptor.AuthorizationInterceptor" />
+			<!-- 定义拦截器栈,是由一个或多个拦截器组 -->
+			<interceptor-stack name="myStack">
+				<!-- struts2 提供的拦截器包含了struts2的很�??��?��拦截�?? -->
+				<interceptor-ref name="defaultStack" />
+				<!-- 自己定义的放在最后面,struts2定义的放??�前 -->
+				<interceptor-ref name="myInterceptor" />
+			</interceptor-stack>
+		</interceptors>
+		<!-- 为此包下的所有action应用拦截 -->
+		<default-interceptor-ref name="myStack" />
+
+		<!--设置全局变量 -->
+		<global-results>
+			<result name="login" type="redirect">../</result>
+			<result name="error" type="redirect">error.jsp</result>
+			<result name="sorry" type="redirect">noRight.jsp</result>
+			<result name="input" type="redirectAction">../</result>
+			<!-- ajax -->
+			<result name="ajax" type="stream">  
+            	<param name="contentType">${ajaxContentType}</param>  
+                <param name="inputName">ajaxInputStream</param>  
+                <param name="allowCaching">false</param>  
+                <param name="contentCharSet ">charset=utf-8</param>  
+    		</result>
+		</global-results>
+		
+		<action name="login" class="userLoginAction">
+			<result name="success" type="redirect">welcome.jsp</result>
+			<result name="input">../</result>
+		</action>
+		
+		<action name="register" class="registerAction">
+			<result name="success" type="redirect">welcome.jsp</result>
+			<result name="input">../</result>
+		</action>
+
+		<action name="exit" class="userExitAction">
+			<result name="success" type="redirect">../</result>
+		</action>
+		
+ 		<action name="*_*" class="{1}Action" method="{2}">
+ 			<result name="exit" type="redirect">../</result>
+ 			<result name="success">public/{1}/{1}_{2}.jsp</result>
+ 			<result name="view" type="redirect">public/{1}/{1}_add.jsp</result>
+ 			<result name="edit" type="redirectAction">
+ 				<param name="actionName">{1}_detail</param>
+ 				<param name="id">${id}</param>
+ 			</result>
+ 			<result name="redirect" type="redirectAction">
+ 				<param name="actionName">{1}_search</param>
+ 			</result>
+ 		</action>
+	</package>
+</struts>   

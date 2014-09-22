@@ -1,0 +1,23 @@
+body{
+padding:5px;
+word-break:break-all;
+font-size:14px;
+margin:0px;
+scrollbar-face-color: #F7F5F4;
+scrollbar-highlight-color: #cccccc;
+scrollbar-shadow-color: #cccccc;
+scrollbar-3dlight-color: #ffffff;
+scrollbar-arrow-color: #cccccc;
+scrollbar-track-color: #ffffff;
+scrollbar-darkshadow-color: #ffffff;
+}
+a:link {border-bottom:1px #0000ff dashed;text-decoration:none}
+a img {border:1px #0000ff dashed}
+p {margin:3px 0px 0px 0px;padding:0}
+.ShowText{padding:2px 2px 1px 18px;background:#ffffff url(show.gif) no-repeat;margin:2px;border:1px #FF00FF dotted;color:#ff0000;font-size:12px;text-decoration:none}
+.ShowYY{font-size:12px;padding:5px;border:1px #ECB200 solid;background:#FFF9E6;line-height:150%;margin-bottom:5px}
+
+.CodeSpan{font-size:12px;width:100%;display:inline-block;margin-bottom:3px;}
+.CodeSpan font{font-size:12px;font-family:"ËÎÌו";color:#ff0000}
+.CodeTex{width:90%;height:150px;border:1px #CCCCCC solid;margin-bottom:4px;scrollbar-face-color:#F7F5F4;scrollbar-highlight-color:#cccccc;scrollbar-shadow-color:#cccccc;scrollbar-3dlight-color: #ffffff;scrollbar-arrow-color: #cccccc;scrollbar-track-color:#ffffff;scrollbar-darkshadow-color:#ffffff}
+.CodeBut{margin-right:5px;height:21px;border:1px #CCCCCC solid;width:80px;background:#f1f1f1;cursor:pointer}

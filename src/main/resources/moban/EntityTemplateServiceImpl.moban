@@ -1,0 +1,56 @@
+package net.rytong.impl;
+
+import java.util.List;
+import java.util.Map;
+
+import net.rytong.utils.PagingEnumerator;
+import net.rytong.dao.IEntityTemplateDAO;
+import net.rytong.entity.EntityTemplate;
+import net.rytong.service.IEntityTemplateService;
+import net.rytong.core.CRUDService;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
+public class EntityTemplateServiceImpl implements IEntityTemplateService, CRUDService<EntityTemplate> {
+	
+	@Autowired
+	private IEntityTemplateDAO iEntityTemplateDAO;
+	
+	@Override
+	public void delete(EntityTemplate customer) {
+		iEntityTemplateDAO.delete(customer);
+	}
+
+	@Override
+	public EntityTemplate update(EntityTemplate customer) {
+		return iEntityTemplateDAO.update(customer);
+	}
+
+	@Override
+	public void add(EntityTemplate t) {
+		iEntityTemplateDAO.save(t);
+	}
+
+	@Override
+	public List<EntityTemplate> list() {
+		return iEntityTemplateDAO.findAll();
+	}
+
+	@Override
+	public List<EntityTemplate> list(Map<String, Object> filterMap) {
+		return iEntityTemplateDAO.pageList(filterMap, 1, 20);
+	}
+
+	@Override
+	public PagingEnumerator<EntityTemplate> pageList(Map<String, Object> filterMap,
+			int pageNo, int pageSize) {
+		return iEntityTemplateDAO.pageList(filterMap, pageNo, pageSize);
+	}
+
+	@Override
+	public EntityTemplate view(String id) {
+		return iEntityTemplateDAO.findById(Long.valueOf(id));
+	}
+}
